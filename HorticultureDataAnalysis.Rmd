@@ -1,0 +1,737 @@
+---
+title: "Horticulture Data Analysis"
+author: "Hisham"
+date: "2023-03-31"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(ggplot2)
+library(janitor)
+library(cowplot)
+library(kableExtra)
+
+# Load the dataset
+horticulture_data_raw <- read_csv("table7_1_3-11_new.csv")
+
+horticulture_data <- horticulture_data_raw %>% 
+  select(id, year:productivity_in_mt_per_ha)
+```
+
+## About
+
+  
+The source of the data, Horticulture Statistics at a Glance 2018, contains a number of datasets pertaining to the horticulture industry. The section 7.1 that provides the time series of the All-India Area, Production and yield of important horticulture crops is the one that we have selected. The area is measured in 1000 Ha, production is measured in 1000 MT  which is converted to 1000 sq km for easy understanding, and productivity is measured in MT/Ha. There are 11 tables in this section, numbered 7.1.1 through 7.1.11. The area, production, and productivity of the main horticulture crops, such as fruits, vegetables, flowers, and aromatic, plantation, and spices, are shown in table 7.1.1 for 1992 and then from 2001 to 2018. 
+
+## Part 1
+*(Table 7.1.1)*
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+horti_data <- read.csv("table7_1_1_horticulture_crops.csv")
+horti_data_clean <- na.omit(horti_data)
+
+fruits_data <- filter(horti_data_clean, crop == "FRUITS")
+veg_data <- filter(horti_data_clean, crop == "VEGETABLES")
+flowers_data <- filter(horti_data_clean, crop == "FLOWERS & AROMATIC")
+plantation_data <- filter(horti_data_clean, crop == "PLANTATION CROPS")
+spices_data <- filter(horti_data_clean, crop == "SPICES")
+```
+
+### About the dataset
+
+The data set has been taken from "Agriculture Statistics at a Glance 2018. The table 7.1.1 shows the area, production and productivity of horticulture crops such as fruits, vegetables, flowers & aromatic, plantation crops and spices in 1992 and then from 2002-2018. The area has been represented in '000 Ha units, production in '000MT and productivity in MT/Ha.
+
+
+## Numerical summary
+
+Numerical summary includes the average, maximum as well as minimum values for the area, production and productivity for each type of crops such as fruits, vegetables, flowers & aromatic, plantation crops and spices..
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+horti_sum<-horti_data_clean%>%
+  
+  group_by(crop)%>%
+  
+  summarize(max_area = max(area_in_1k_ha),
+            max_production = max(production_in_1k_mt),
+            max_productivity = max(productivity_in_mt_per_ha),
+            min_area = min(area_in_1k_ha),
+            min_production = min(production_in_1k_mt),
+            min_productivity = min(productivity_in_mt_per_ha),
+            mean_area = mean(area_in_1k_ha),
+            mean_production = mean(production_in_1k_mt),
+            mean_productivity = mean(productivity_in_mt_per_ha))
+
+# Print the table with kableExtra
+kable(horti_sum) %>%
+  kable_styling(full_width = TRUE)
+```
+
+
+## Visual summary
+
+Visual summary helps us to under the trend in area, production and productivity for each type of crops over the years as well as the crop-wise total area, production and productivity.
+
+### Change in Area of Major Crops over Time
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+horti_data_clean %>% 
+  ggplot(aes(x = year, y =area_in_1k_ha/10^2 , color = crop)) +
+  geom_line() +
+  geom_point()+
+  labs(x = "Year", y = "Area ", color = "Crop") +
+  ggtitle("Change in Area of Major Crops over Time") +
+  theme_minimal()
+```
+
+### Change in Production of Major Crops over Time
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+horti_data_clean %>% 
+  ggplot(aes(x = year, y = production_in_1k_mt/10^2 , color = crop)) +
+  geom_line() +
+  geom_point()+
+  labs(x = "Year", y = "Production ", color = "Crop") +
+  ggtitle("Change in Production of Major Crops over Time") +
+  theme_minimal()
+```
+
+
+### Crop-wise total Area, Production and Productivity
+
+The plots showing the total area, production and productivity for each crop and these plots will help us to make conclusion regarding which crop has go the highest as well as the lowest total area, production and productivity from 1992 till 2018.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+ggplot(horti_data_clean,aes(x = crop, y = area_in_1k_ha/10^2)) + 
+  geom_bar(stat="identity",color = "darkblue",fill="darkblue", width = 0.5) + 
+  labs(title = "Crop-wise total area ", x = "Crop", y = "Area")
+
+```
+  
+   1. The crop with highest total area - Vegetables
+   2. The crop with lowest total area - Flowers & Aromatic
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+ggplot(horti_data_clean,aes(x = crop, y =  production_in_1k_mt/10^3)) + 
+  geom_bar(stat="identity",color = "brown",fill = "brown", width = 0.5) + 
+  labs(title = "Crop-wise totalproduction ", x = "Year", y = "Production")
+
+```
+
+  1. The crop with highest total production - Vegetables
+  2. The crop with lowest total production - Flowers & Aromatic
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+ggplot(horti_data_clean,aes(x = crop, y = productivity_in_mt_per_ha)) + 
+  geom_bar(stat="identity",color  =  "darkgreen",fill = "darkgreen",width = 0.5) + 
+  labs(title = "Crop-wise total productivity  ", x = "Year", y = "Productivity")
+```
+
+  1. The crop with highest total productivity - Vegetables
+  2. The crop with lowest total productivity - Spices
+  
+### Area, Production and Productivity of Fruits
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+ggplot(fruits_data,aes(x = year, y = area_in_1k_ha/10^2)) + 
+  geom_line(color = "lightgreen") + 
+  geom_point(color = "maroon")+
+  labs(title = "Area over years for fruits", x = "Year", y = "Area")
+
+ggplot(fruits_data,aes(x = year, y = production_in_1k_mt/10^2)) + 
+  geom_line(color="lightgreen") + 
+  geom_point(color = "maroon")+
+  labs(title = "Production of fruits over years ", x = "Year", y = "Production")
+
+ggplot(fruits_data,aes(x = year, y = productivity_in_mt_per_ha)) + 
+  geom_line(color="lightgreen") + 
+  geom_point(color = "maroon")+
+  labs(title = "Productivity of fruits over years ", x = "Year", y = "Productivity")
+
+ 
+```
+
+### Area, Production and Productivity of Vegetables
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+ggplot(veg_data,aes(x = year, y = area_in_1k_ha/10^2)) + 
+  geom_line(color="lightgreen") + 
+  geom_point(color = "darkgreen") +
+  labs(title = "Area over years for vegetables ", x = "Year", y = "Area")
+
+ggplot(veg_data,aes(x = year, y =  production_in_1k_mt/10^2)) + 
+  geom_line(color = "lightgreen") +
+  geom_point(color = "darkgreen")+
+  labs(title = "Production of vegetables over years ", x = "Year", y = "Production")
+
+ggplot(veg_data,aes(x = year, y = productivity_in_mt_per_ha)) + 
+  geom_line(color = "lightgreen") + 
+  geom_point(color = "darkgreen")+
+  labs(title = "Productivity of vegetables over years ", x = "Year", y = "Productivity")
+
+```
+
+
+### Area, Production and Productivity of Flowers & Aromatic
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+ggplot(flowers_data,aes(x = year, y = area_in_1k_ha/10^2)) + 
+  geom_point(color = "red") + 
+  geom_line(color = "lightgreen")+
+  labs(title = "Area over years for flowers & aromatic ", x = "Year", y = "Area")
+
+ggplot(flowers_data,aes(x = year, y =  production_in_1k_mt/10^2)) + 
+  geom_point(color="red") + 
+  geom_line(color = "lightgreen")+
+  labs(title = "Production of flowers & aromatic over years ", x = "Year", y = "Production")
+
+ggplot(flowers_data,aes(x = year, y = productivity_in_mt_per_ha)) + 
+  geom_point(color="red") + 
+  geom_line(color = "lightgreen")+
+  labs(title = "Productivity of flowers & aromatic over years ", x = "Year", y = "Productivity")
+
+```
+
+
+### Area, Production and Productivity of Plantation crops
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+ggplot(plantation_data,aes(x = year, y = area_in_1k_ha/10^2)) + 
+  geom_point(color = "black") + 
+  geom_line(color = "lightgreen")+
+  labs(title = "Area over years for plantation crops ", x = "Year", y = "Area")
+
+ggplot(plantation_data,aes(x = year, y =  production_in_1k_mt/10^2)) + 
+  geom_point(color="black") +
+  geom_line(color = "lightgreen")+
+  labs(title = "Production of plantation crops over years ", x = "Year", y = "Production")
+
+ggplot(plantation_data,aes(x = year, y = productivity_in_mt_per_ha)) + 
+  geom_point(color = "black") + 
+  geom_line(color = "lightgreen")+
+  labs(title = "Productivity of plantation crops over years ", x = "Year", y = "Productivity")
+```
+
+### Area, Production and Productivity of Spices
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+ggplot(spices_data,aes(x = year, y = area_in_1k_ha/10^2)) + 
+  geom_point(color = "darkblue") + 
+  geom_line(color = "lightgreen")+
+  labs(title = "Area over years for spices ", x = "Year", y = "Area")
+ 
+
+ggplot(spices_data,aes(x = year, y =  production_in_1k_mt/10^2)) + 
+  geom_point(color="darkblue") + 
+  geom_line(color = "lightgreen")+
+  labs(title = "Production of spices over years ", x = "Year", y = "Production")
+
+ggplot(spices_data,aes(x = year, y = productivity_in_mt_per_ha)) + 
+  geom_point(color = "darkblue") + 
+  geom_line(color = "lightgreen")+
+  labs(title = "Productivity of spices over years ", x = "Year", y = "Productivity")
+
+```
+
+## Conclusion
+
+Over the years area as well as production tend to show an increasing trend. Among that the vegetables has more area and production over the time. However, there may be many other factors that affects the area and production of each crop that might have affected the area and production in a negative or positive way.
+
+
+
+## Part 2 
+*(Table 7.1.3 - 7.1.11 merged)*  
+
+### Data Summary
+```{r }
+names(horticulture_data)
+unique(horticulture_data$crop_name)
+unique(horticulture_data$crop_type)
+unique(horticulture_data$year)
+str(horticulture_data)
+summary(horticulture_data)
+```
+
+## Plots Explorations & Explanations
+
+```{r , echo=FALSE, message=FALSE, warning=FALSE}
+# Plot the Change in Area, Production & Productivity of Major Crops over Time
+#Plot 1
+horticulture_data %>% 
+  # mutate(year = as.factor(year)) %>% 
+  ggplot(aes(x = year, y = area_in_1k_sq_km, color = crop_name)) +
+  geom_line()+
+  facet_wrap(~crop_type)+
+  labs(x = "Year", y = "Area (in 1000 sq. km)", color = "Crops") +
+  ggtitle("Change in Area of Major Crops over Time of Different crop types") +
+  theme_bw()
+```
+
+The plot shows change in area of major crops types over time. Except spices all the crops almost have been mostly increasing indicating all the crops are being more planted. The species have a odd rise and fall in area.
+
+
+```{r , echo=FALSE, message=FALSE}
+#Plot 2
+horticulture_data %>%
+  ggplot(aes(x = year, y = production_in_1k_mt, color = crop_name)) +
+  geom_line() +
+  facet_wrap(~crop_type)+
+  labs(x = "Year", y = "Production (in 1000 metric tons)", color = "Crop") +
+  ggtitle("Change in Production of Major Crops over Time of Different crop types") +
+  theme_bw()
+```
+The plot shows change in production of major crops types over time. All the crops almost have been mostly increasing indicating all the crops are being more produced.
+
+
+```{r , echo=FALSE, message=FALSE}
+#Plot 3
+horticulture_data %>%
+  ggplot(aes(x = year, y = productivity_in_mt_per_ha, color = crop_name)) +
+  geom_line() +
+  facet_wrap(~crop_type)+
+  labs(x = "Year", y = "Productivity (in metric tons per hectare)", color = "Crop") +
+  ggtitle("Change in Productivity of Major Crops over Time of Different crop types") +
+  theme_bw()
+```
+
+The plot shows change in productivity of different crops. There is no much change in spices and plantation crops. Where as there is constant change in Fruits and vegetables.  
+
+```{r , echo=FALSE, message=FALSE}
+##### grouping based on year
+hd_g_year <- horticulture_data %>%
+  group_by(year) %>%
+  summarize(
+    total_area = sum(area_in_1k_sq_km, na.rm = TRUE),
+    total_production = sum(production_in_1k_mt, na.rm = TRUE),
+    total_productivity = sum(productivity_in_mt_per_ha, na.rm = TRUE)
+  )
+
+#Plot 4
+hd_g_year %>%
+  ggplot(aes(x = year, y = total_area, fill = year)) +
+  geom_col() +
+  labs(title = "Total Area in different years",
+       x = "Year",
+       y = "Total Area in 1k ha")
+
+```
+
+The plot shows total area in different years and there is a clear increasing trend, indicating that there is more cultivation being done.
+
+
+```{r , echo=FALSE, message=FALSE}
+#Plot 5
+hd_g_year %>%
+  ggplot(aes(x = year, y = total_production, fill = year)) +
+  geom_col() +
+  labs(title = "Total Production in different years",
+       x = "Year",
+       y = "Total Production in 1k MT")
+```
+
+The plot shows total production in different years and there is a clear increasing trend, indicating that production of crops is almost always increasing. 
+
+```{r , echo=FALSE, message=FALSE}
+#Plot 6
+hd_g_year %>%
+  ggplot(aes(x = year, y = total_productivity, fill = year)) +
+  geom_col() +
+  labs(title = "Total Productivity in different years",
+       x = "Year",
+       y = "Total Productivity in MT per ha")
+```
+
+The plot shows total productivity in different years and there is a increasing trend, indicating the productivity of crops is increasing or yield efficiency is getting better. 
+
+```{r , echo=FALSE, message=FALSE}
+#grouping based on crop name
+hd_g_crop <- horticulture_data %>%
+  group_by(crop_name) %>%
+  summarize(
+    total_area = sum(area_in_1k_sq_km, na.rm = TRUE),
+    total_production = sum(production_in_1k_mt, na.rm = TRUE),
+    total_productivity = sum(productivity_in_mt_per_ha, na.rm = TRUE)
+  )
+
+#Plot 7
+hd_g_crop %>%  
+  arrange(desc(total_area)) %>% 
+  head(8) %>% 
+  ggplot(aes(x = crop_name, y = total_area, fill = crop_name)) +
+  geom_bar(stat = "identity", fill = "lightblue")+
+  labs(title = "Total Area of different crops",
+       x = "Crop",
+       y = "Top Crops with Total Area")+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5,hjust=1))
+```
+
+The plot shows total area of top 8 crops. Spices are being cultivated at larger area.
+
+```{r , echo=FALSE, message=FALSE}
+#Plot 8
+hd_g_crop %>%
+  arrange(desc(total_production)) %>% 
+  head(8) %>% 
+  ggplot(aes(x = crop_name, y = total_production/100)) +
+  geom_bar(stat = "identity", fill = "lightgreen") +
+  labs(title = "Top Production Crops",
+       x = "Crop",
+       y = "Top Production in Lakh MT")+
+  theme(axis.text.x = element_text(angle = 90, vjust = 1,hjust=1))+
+  theme_bw()
+```
+
+The plot shows total production of top 8 crops. Potato is produced more, followed by banana.
+
+```{r , echo=FALSE, message=FALSE}
+#Plot 9
+hd_g_crop %>%
+  arrange(desc(total_production)) %>% 
+  head(8) %>% 
+  ggplot(aes(x = crop_name, y = total_productivity, fill = crop_name)) +
+  geom_bar(stat = "identity", fill = "#CBC3E3") +
+  labs(title = "Top Productivity Crops",
+       x = "Crop",
+       y = "Total Productivity in MT per ha")
+```
+
+The plot shows total productivity of top 8 crops. Banana is the crop with top productivity.
+
+```{r , echo=FALSE, message=FALSE}
+# Plot the area of the top 5 crops in 2018
+top_area_crops_2018 <- horticulture_data %>% 
+  filter(year == 2018) %>% 
+  arrange(desc(area_in_1k_sq_km)) %>% 
+  head(5)
+
+#Plot 10
+ggplot(top_area_crops_2018, aes(x = crop_name, y = area_in_1k_sq_km, fill = crop_name)) +
+  geom_bar(stat = "identity") + 
+  coord_flip() + 
+  labs(x = "Crop Name", y = "Area (in 1000 sq. km)", fill = "Crop Name") + 
+  ggtitle("Area of Top 5 Horticultural Crops in 2018")+
+  theme_bw()
+```
+
+The plot shows area of top 5 crops in 2018. Spices is the top crop here.
+
+```{r , echo=FALSE, message=FALSE}
+# Plot the production of the top 5 crops in 2018
+top_production_crops_2018 <- horticulture_data %>% 
+  filter(year == 2018) %>% 
+  arrange(desc(production_in_1k_mt)) %>% 
+  head(5)
+
+#Plot 11
+ggplot(top_production_crops_2018, aes(x = crop_name, y = production_in_1k_mt, fill = crop_name)) +
+  geom_bar(stat = "identity") + 
+  coord_flip() + 
+  labs(x = "Crop Name", y = "Production (in 1k metric tons)", fill = "Crop Name") + 
+  ggtitle("Production of Top 5 Horticultural Crops in 2018")+
+  theme_bw()
+```
+
+The plot shows production of top 5 crops in 2018. Potato is the top crop here.
+
+```{r , echo=FALSE, message=FALSE}
+# Productivity of the top 5 crops in 2018
+top_productivity_crops_2018 <- horticulture_data %>% 
+  filter(year == 2018) %>% 
+  arrange(desc(productivity_in_mt_per_ha)) %>% 
+  head(5)
+
+# Plot the productivity of the top 5 crops in 2018
+#Plot 12
+ggplot(top_productivity_crops_2018, aes(x = crop_name, y = productivity_in_mt_per_ha, fill = crop_name)) +
+  geom_bar(stat = "identity") + 
+  coord_flip() + 
+  labs(title = "Top crops with highest productivity in 2018",
+       x = "Crop name",
+       y = "Total productivity in MT per ha")+
+  theme_bw()
+```
+
+The plot shows productivity of top 5 crops in 2018. Papaya is the top crop here.
+
+```{r , echo=FALSE, message=FALSE, warning=FALSE}
+# Filter the data for years 2002 and 2017
+production_change <- horticulture_data %>%
+  filter(year == c(2002, 2017)) %>% 
+  select(year, crop_name, production_in_1k_mt)
+
+# Create a new column with the difference in production between 2017 and 2002
+production_change <- production_change %>%
+  spread(year, production_in_1k_mt) %>%
+  mutate(increase = `2017` - `2002`)
+
+# Find the crop with the smallest and largest increase in production
+smallest_increase <- production_change %>%
+  filter(!is.na(increase)) %>%
+  arrange(increase) %>%
+  slice(1)
+
+largest_increase <- production_change %>%
+  filter(!is.na(increase)) %>%
+  arrange(desc(increase)) %>%
+  slice(1)
+
+# Filter the production change data to show only the top 10 crops with smallest and largest increase in production
+top_5_smallest <- production_change %>%
+  filter(!is.na(increase)) %>%
+  arrange(increase) %>%
+  head(5)
+
+top_5_largest <- production_change %>%
+  filter(!is.na(increase)) %>%
+  arrange(desc(increase)) %>%
+  head(5)
+
+# Combine the data for the smallest and largest increase crops
+top_crops <- rbind(top_5_smallest, top_5_largest)
+
+# Plot the production change for the top 10 smallest and largest increase crops
+#Plot 13
+ggplot(data = top_crops, aes(x = increase, y = crop_name)) +
+  geom_point(size = 2, color = "gray") +
+  geom_point(data = smallest_increase, aes(x = increase, y = crop_name), color = "red", size = 3) +
+  geom_point(data = largest_increase, aes(x = increase, y = crop_name), color = "green", size = 3) +
+  labs(title = "Crops with Smallest and Largest Increase in Production(2002-2017)",
+       x = "Increase in Production (in 1k MT)",
+       y = "Crop Name") +
+  theme_bw() +
+  geom_text(data = smallest_increase, aes(x = increase + 500, y = crop_name, label = crop_name), color = "red", size = 3, hjust = 0) +
+  geom_text(data = largest_increase, aes(x = increase - 500, y = crop_name, label = crop_name), color = "green", size = 3, hjust = 1)
+
+
+```
+
+The plot shows the change in production, measured in thousands of metric tons (MT), for the crops that had the smallest and largest increase in production between 2002 and 2017. The x-axis shows the crop names, and the y-axis shows the change in production.
+
+Year 2002 was the first year with sufficient data in the dataset and year 2017 was the last year with sufficient data in the dataset. 
+
+The bars are colored differently to indicate whether the change in production was positive or negative. The bars in green represent crops that had an increase in production, while the bars in red represent crops that had a decrease in production.
+
+The plot clearly shows that the crop with the smallest increase in production was 'Tapioca', with a change of -2345.1 thousand MT, while the crop with the largest increase in production was 'Potato', with a change of 24148.5 thousand MT. This indicates that 'Potato' was the most successful crop in terms of increasing production between 2002 and 2017, while 'Tapioca' was the crop was not successful. Tapioca has a negative increase, meaning that production has decreased rather than increased.
+
+Overall, the Production Change (in 1k MT) for Crops with Smallest and Largest Increase in Production (2002-2017) plot provides a clear and concise summary of the changes in production for the different crops, and allows for easy comparison between the crops that had the smallest and largest increase in production.
+
+
+## Part 3 
+*(Table 7.1.2)*  
+
+
+### About
+
+The Horticulture Statistics at a glance 2018 dataset provides information related to horticulture crops in India, including the type of crop, its name, area under cultivation, production in metric tons, and the year in which the data was recorded.
+The data in the dataset is available for multiple years, which allows for trend analysis and comparison of crop performance over time.The dataset provides valuable insights into the state of horticulture crops in India, such as the most popular crops, the areas where they are grown, and their production levels. 
+Horticulture Statistics at a glance 2018 dataset is a rich source of information on horticulture crops in India, and its analysis can provide useful insights into the current state and future prospects of the horticulture sector in the country.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+ht_data <- read_csv("table7_1_2_crop_wise.csv")
+
+# Filter the data to only include the columns we need
+ht_data_filtered  <- ht_data %>%
+  select(crop_type, crop_name, area_in_1k_ha, production_in_1k_mt, year)
+```
+
+## Nummerical Summary
+```{r ht_data}
+summary(ht_data)
+
+```
+## Including Plots
+
+### Graph 1
+
+This graph provides an overview of the distribution of horticulture crop production levels in the dataset, allowing the viewer to see which production levels are more or less common.
+
+The graph is a histogram showing the distribution of horticulture crop production in units of 1000 metric tons. The x-axis represents the range of production levels, while the y-axis shows the count or frequency of each level. The highest production count was from 0-10000. 
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+ggplot(ht_data_filtered, aes(x = production_in_1k_mt)) +
+  geom_histogram(color = "black", fill = "steelblue", binwidth = 50) +
+  labs(x = "Production in 1000 MT", y = "Count", title = "Distribution of Production")
+
+```
+
+
+### Graph 2
+
+In this graph x-axis label to "Area in 1000 Ha", the y-axis label to "Count", and the title of the plot to "Distribution of Area".The histogram displays the distribution of the variable area_in_1k_ha in the dataset ht_data_filtered. The x-axis represents the area in thousands of hectares, while the y-axis represents the count of observations in each bin. The bars represent the frequency of observations falling into each bin. The  average area count is from 0-500 .
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+ggplot(ht_data_filtered, aes(x = area_in_1k_ha)) +
+  geom_histogram(color = "black", fill = "steelblue", binwidth = 50) +
+  labs(x = "Area in 1000 Ha", y = "Count", title = "Distribution of Area")
+
+```
+
+## Graph 3
+
+ The data used for the histogram is a subset of the "ht_data" dataset, filtered for the year 2018. The x-axis displays the crop names, and the y-axis displays the production of each crop in thousands of metric tons. The bars are filled with blue color and their heights correspond to the production values. From the data we can conclude that the highest producing crop in the year 2018 is potato. The production of potato was 48009 production_in_1k_mt. The highest producing fruit was banana and highest producing plantation crop was Coconut.
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+ggplot(data = ht_data %>% filter(year == 2018),
+       aes(x = crop_name, y = production_in_1k_mt)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle("Production of each crop in 2018")
+```
+
+## Graph 4
+ The data used for the plot is the ht_data, which is filtered to show only the data for the year 2018. The x-axis shows the different crop names, and the y-axis shows the area of each crop in thousands of hectares.The plot provides a visual representation of the area of each crop grown in 2018, allowing for easy comparison between the different crops. The crop that took more area was Mango(2258_in_1k_ha). In plantation crop most area is taken by Coconut and in vegetables onion takes more area comparitivly.
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# Plot 2: Area of each crop in 2018
+ggplot(data = ht_data %>% filter(year == 2018),
+       aes(x = crop_name, y = area_in_1k_ha)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle("Area of each crop in 2018")
+
+```
+
+## Graph 5
+In this graph we are visualizing the top 10 crops in terms of the total area (in 1,000 hectares) grown in the year 2018.The x-axis displays the crop types, while the y-axis shows the total area (in 1,000 hectares) for each crop type. The bars are colored according to the crop name.The distribution of the top 10 crops by area. The height of each bar represents the total area (in 1,000 hectares) for a particular crop type, while the different colors within each bar indicate the contribution of different crop names to the total area. It can also be used to identify trends in the area of cultivation for different crops over time.The crop with highest area is mango(2258_in_1k_ha)
+ 
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+top_10_crops_2018 <- ht_data %>% 
+  filter(year == 2018) %>% 
+  arrange(desc(area_in_1k_ha))%>%
+  head(10)
+
+ggplot(top_10_crops_2018, aes(x = crop_type, y = area_in_1k_ha, fill = crop_name)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Crop name", y = "area_in_1k_ha", title = "Total Area by Crop Name")
+
+```
+
+## Graph 6
+
+The graph shows the top 10 crops produced in 2018, based on the production volume in thousands of metric tons (1k MT). The crops are represented by their respective names and are color-coded for easy identification. The x-axis shows the crop names, while the y-axis displays the production. The graph highlights the significant differences in production volumes between the top 10 crops, with some crops producing more than twice the volume of others.The highest production crop is potato and the crop with lowest production is cumin.
+
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+top_10_crops_2018 <- ht_data %>% 
+  filter(year == 2018) %>% 
+  arrange(desc(production_in_1k_mt))%>%
+  head(10)
+
+ggplot(top_10_crops_2018, aes(x = crop_type, y = production_in_1k_mt, fill = crop_name)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Crop name", y = "production_in_1k_mt", title = "Total Production by Crop Name")
+
+```
+
+## Graph 7
+
+The x-axis represents the different crop types, while the y-axis represents the total area and production in thousands of hectares and metric tonnes, respectively.
+
+Each bar is split into two sections, one section representing the total area and the other representing the total production. The area is depicted by the darker shade, while the production is depicted by the lighter shade.From this graph it is understandable that Area and production of vegetables is more as compared to other crop type.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+ht_data %>% 
+  filter(year == 2018) %>% 
+  group_by(crop_type) %>% 
+  summarize(total_area = sum(area_in_1k_ha), total_production = sum(production_in_1k_mt)) %>% 
+  gather(key = "variable", value = "value", -crop_type) %>% 
+  ggplot(aes(x = crop_type, y = value, fill = variable)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  ggtitle("Total area and production for each crop type in 2018")
+```
+
+## Graph 8
+
+The data being plotted is ht_data_filtered, and the x-axis represents different crop types, while the y-axis represents the total production in 1,000 metric tons. The resulting diagram will display a bar for each unique crop type in the data set, with the height of each bar representing the total production of that crop type in 1,000 metric tons. Each bar will be filled with a different color to represent the different crop types. The x-axis will be labeled as "Crop Type", the y-axis will be labeled as "Total Production (in 1k mt)", and the chart title will be "Total Production by Crop Type". The crop type with highest area is vegetables. And crop type with lowest area is flowers.
+
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# Create a bar plot of the total production of each crop type
+ggplot(ht_data_filtered, aes(x = crop_type, y = production_in_1k_mt, fill = crop_type)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Crop Type", y = "Total Production (in 1k mt)", title = "Total Production by Crop Type")
+
+```
+
+## Graph 9
+The above graph plot with the x-axis being the crop type and the y-axis being the area in 1,000 hectares. The crop type with highest area is vegetables. And crop type with lowest area is flowers. From this graph it is understandable that vegetable is having highest productivity and area in case of crop-type
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+ggplot(ht_data_filtered, aes(x = crop_type, y = area_in_1k_ha, fill = crop_type)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Crop Type", y = "Total Area (in 1k mt)", title = "Total Area by Crop Type")
+
+```
+
+## Graph 10
+
+The x-axis represents the total production of crops in thousands of metric tons (1k MT), and the y-axis represents the crop names. The bars are colored by crop type and show the relative contribution of each crop type to the total production. The graph is faceted by crop type, which means that each crop type has its own panel. The scales on the y-axis are free, which allows for better comparison between the different crops within each crop type. The title of the graph is "Most Produced Crops by Crop Type," and the x-axis label is "Total Production (in 1k MT)," while the y-axis label is "Crop Name." The highest producing vegetable is potato and the highest producing plantation crop is Coconut.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# Group the data by crop type and crop name, and calculate the total production for each crop
+production_by_crop <- ht_data_filtered %>%
+  filter(!crop_type %in% c("AROMATIC", "CITRUS", "FLOWER", NA)) %>% 
+  filter(crop_name != "Others") %>% 
+  group_by(crop_type, crop_name) %>%
+  summarise(total_production = sum(production_in_1k_mt)) %>%
+  ungroup()
+
+# Find the top crops for each crop type
+top_crops <- production_by_crop %>%
+  group_by(crop_type) %>%
+  top_n(5, total_production) %>%
+  ungroup()
+
+# Plot the top crops for each crop type
+ggplot(top_crops, aes(x = total_production, y = reorder(crop_name, total_production), fill = crop_type)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~crop_type, scales = "free_y") +
+  labs(title = "Most Produced Crops by Crop Type",
+       x = "Total Production (in 1k MT)",
+       y = "Crop Name") +
+  theme_bw()
+
+```
+
+## Graph 11
+
+The x-axis represents the crop names, and the y-axis represents the top production of each crop in lakh metric tons (LMT). The bars are colored light green and represent the top 8 crops based on their total production. The title of the graph is "Top Production Crops," and the x-axis label is "Crop," while the y-axis label is "Top Production in Lakh MT." The highest producing crop-type is vegetable. 
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+hd_g_crop <- ht_data %>%
+  group_by(crop_name) %>%
+  summarize(
+    total_area = sum(area_in_1k_sq_km, na.rm = TRUE),
+    total_production = sum(production_in_1k_mt, na.rm = TRUE)
+  )
+
+hd_g_crop <- hd_g_crop %>%
+  filter(crop_name != "Others")
+
+hd_g_crop %>%
+  arrange(desc(total_production)) %>% 
+  head(8) %>% 
+  ggplot(aes(x = crop_name, y = total_production/100)) +
+  geom_bar(stat = "identity", fill = "lightgreen") +
+  labs(title = "Top Production Crops",
+       x = "Crop",
+       y = "Top Production in Lakh MT")+
+  theme(axis.text.x = element_text(angle = 90, vjust = 1,hjust=1))+
+  theme_bw()
+
+
+```
+
+
+## Conclusion
+
+In conclusion the horticulture data in glance 2018 dataset gives a clear understanding about the area and production of various crop and crop type. The table I choose was 7.1.2. In this table while comparing the highest  productivity count it is from 0-1000. The highest area count is from 0-500. And the highest producing crop was potato with the production of 48009 production-in-1k-mt. The highest producing fruit is Banana(29221) and the highest producing plantation crop is Coconut(48009). But while comparing the area of each crop in 2018 by crop name. The crop with highest area is mango(2258-in-1k-ha) and plantation crop with highest area is Coconut. So here we can notice that Coconut is the plantation crop with highest area and production while comparing plantation crop. While categorizing on the basis of crop-type Vegetables(potato especially) have more production as compared to other crop-types. The data visualization helps a lot to get better understanding about the dataset.
+
+## Poster
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("C:/Users/Hisham/OneDrive/Documents/y2023_feb__data_wrangle_data_viz/PPoster final2.jpg")
+```

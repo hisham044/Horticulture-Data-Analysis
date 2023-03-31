@@ -1,0 +1,313 @@
+id,table_num,table_name,year,crop_type,crop_name,area_in_1k_ha,area_in_1k_sq_km,production_in_1k_mt,production_in_10lakh_mt,student_name
+1,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Almond,21,0.21,10,,Hisham
+2,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Aonla/Gooseberry,95,0.95,1173,,Hisham
+3,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Apple,319,3.19,2134,,Hisham
+4,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Banana,822,8.22,29221,,Hisham
+5,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Ber,42,0.42,401,,Hisham
+6,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,CITRUS,(ii) Mandarin,299,2.99,3699,,Hisham
+7,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,CITRUS,(iii) Sweet Orange( Mosambi),275,2.75,4229,,Hisham
+8,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,CITRUS,(iv) Others,111,1.11,777,,Hisham
+9,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Custardapple,30,0.3,228,,Hisham
+10,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Grapes,123,1.23,2823,,Hisham
+11,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Guava,246,2.46,3994,,Hisham
+12,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,JackFRUIT,118,1.18,2088,,Hisham
+13,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Kiwi,5,0.05,8,,Hisham
+14,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Litchi,85,0.85,528,,Hisham
+15,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Mango,2163,21.63,18527,,Hisham
+16,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Muskmelon,42,0.42,863,,Hisham
+17,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Papaya,115,1.15,4913,,Hisham
+18,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Passion Fruit,19,0.19,129,,Hisham
+19,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Peach,19,0.19,97,,Hisham
+20,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Pear,42,0.42,303,,Hisham
+21,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Picanut,1,0.01,0,,Hisham
+22,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Pineapple,116,1.16,1984,,Hisham
+23,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Plum,23,0.23,72,,Hisham
+24,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Pomegranate,181,1.81,1789,,Hisham
+25,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Sapota,106,1.06,1339,,Hisham
+26,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Strawberry,1,0.01,8,,Hisham
+27,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Walnut,115,1.15,238,,Hisham
+28,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Watermelon,84,0.84,2049,,Hisham
+29,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FRUIT,Others,349,3.49,2938,,Hisham
+30,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Beans,218,2.18,2204,,Hisham
+31,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Bittergourd,76,0.76,770,,Hisham
+32,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Bottlegourd,108,1.08,1826,,Hisham
+33,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Brinjal,673,6.73,12589,,Hisham
+34,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Cabbage,386,3.86,8585,,Hisham
+35,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Capsicum,32,0.32,183,,Hisham
+36,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Carrot,64,0.64,968,,Hisham
+37,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Cauliflower,411,4.11,7926,,Hisham
+38,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Cucumber,43,0.43,678,,Hisham
+39,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Chillies (Green),181,1.81,1998,,Hisham
+40,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Elephant Foot Yam,24,0.24,678,,Hisham
+41,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Mushroom,,0,51,,Hisham
+42,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Okra/Ladyfinger,504,5.04,5709,,Hisham
+43,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Onion,1173,11.73,18927,,Hisham
+44,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Parwal/Pointed gourd,18,0.18,347,,Hisham
+45,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Peas,476,4.76,4652,,Hisham
+46,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Potato,2076,20.76,48009,,Hisham
+47,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Radish,168,1.68,2307,,Hisham
+48,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Pumpkin/Sitaphal/Kaddu,49,0.49,1122,,Hisham
+49,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Sweet Potato,107,1.07,1228,,Hisham
+50,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Tapioca,208,2.08,4373,,Hisham
+51,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Tomato,767,7.67,16385,,Hisham
+52,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,VEGETABLE,Others,1654,16.54,25053,,Hisham
+53,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,AROMATIC,AROMATIC,659,6.59,1000,,Hisham
+54,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FLOWER,FLOWERs Cut,,0,484,,Hisham
+55,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,FLOWER,FLOWERs Loose,249,2.49,1659,,Hisham
+56,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,,Honey,,0,81,,Hisham
+57,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,PLANTATION CROPS,Arecanut,450,4.5,747,,Hisham
+58,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,PLANTATION CROPS,Cashewnut,1030,10.3,745,,Hisham
+59,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,PLANTATION CROPS,Cocoa,78,0.78,16,,Hisham
+60,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,PLANTATION CROPS,Coconut,1976,19.76,14067,,Hisham
+61,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Ajwan,24,0.24,16,,Hisham
+62,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Cardamom,100,1,24,,Hisham
+63,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Chillies (Dried),761,7.61,1605,,Hisham
+64,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Cinnamon/Tejpata,3,0.03,5,,Hisham
+65,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,"Celery,Dill & Poppy",24,0.24,21,,Hisham
+66,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Clove,2,0.02,1,,Hisham
+67,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Coriander,553,5.53,462,,Hisham
+68,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Cumin,890,8.9,486,,Hisham
+69,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Fenugreek,123,1.23,131,,Hisham
+70,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Fennel,39,0.39,60,,Hisham
+71,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Garlic,262,2.62,1425,,Hisham
+72,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Ginger,142,1.42,760,,Hisham
+73,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Nutmeg,21,0.21,14,,Hisham
+74,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Pepper,129,1.29,65,,Hisham
+75,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Vanilla,6,0.06,1,,Hisham
+76,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Tamarind,54,0.54,202,,Hisham
+77,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Turmeric,184,1.84,830,,Hisham
+78,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2015,SPICES,Mint (Mentha),,0,,,Hisham
+79,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Almond,12,0.12,8,,Hisham
+80,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Aonla/Gooseberry,88,0.88,972,,Hisham
+81,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Apple,277,2.77,2521,,Hisham
+82,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Banana,841,8.41,29135,,Hisham
+83,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Ber,44,0.44,425,,Hisham
+84,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,CITRUS,(ii) Mandarin,397,3.97,4113,,Hisham
+85,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,CITRUS,(iii) Sweet Orange( Mosambi),244,2.44,3468,,Hisham
+86,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,CITRUS,(iv) Others,138,1.38,1562,,Hisham
+87,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Custardapple,37,0.37,298,,Hisham
+88,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Grapes,122,1.22,2590,,Hisham
+89,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Guava,255,2.55,4048,,Hisham
+90,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,JackFRUIT,151,1.51,1732,,Hisham
+91,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Kiwi,4,0.04,11,,Hisham
+92,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Litchi,90,0.9,559,,Hisham
+93,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Mango,2209,22.09,18643,,Hisham
+94,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Muskmelon,45,0.45,935,,Hisham
+95,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Papaya,132,1.32,5667,,Hisham
+96,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Passion Fruit,13,0.13,78,,Hisham
+97,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Peach,18,0.18,107,,Hisham
+98,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Pear,40,0.4,323,,Hisham
+99,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Picanut,1,0.01,1,,Hisham
+100,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Pineapple,110,1.1,1924,,Hisham
+101,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Plum,22,0.22,82,,Hisham
+102,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Pomegranate,197,1.97,2306,,Hisham
+103,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Sapota,107,1.07,1294,,Hisham
+104,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Strawberry,1,0.01,5,,Hisham
+105,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Walnut,92,0.92,229,,Hisham
+106,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Watermelon,95,0.95,2325,,Hisham
+107,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FRUIT,Others,275,2.75,2386,,Hisham
+108,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Beans,232,2.32,2334,,Hisham
+109,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Bittergourd,93,0.93,1046,,Hisham
+110,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Bottlegourd,149,1.49,2458,,Hisham
+111,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Brinjal,663,6.63,12515,,Hisham
+112,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Cabbage,394,3.94,8806,,Hisham
+113,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Capsicum,46,0.46,288,,Hisham
+114,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Carrot,82,0.82,1338,,Hisham
+115,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Cauliflower,426,4.26,8090,,Hisham
+116,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Cucumber,71,0.71,1202,,Hisham
+117,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Chillies (Green),292,2.92,2955,,Hisham
+118,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Elephant Foot Yam,28,0.28,733,,Hisham
+119,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Mushroom,170,1.7,436,,Hisham
+120,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Okra/Ladyfinger,511,5.11,5849,,Hisham
+121,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Onion,1320,13.2,20931,,Hisham
+122,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Parwal/Pointed gourd,18,0.18,264,,Hisham
+123,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Peas,498,4.98,4811,,Hisham
+124,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Potato,2117,21.17,43417,,Hisham
+125,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Radish,199,1.99,2844,,Hisham
+126,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Pumpkin/Sitaphal/Kaddu,68,0.68,1509,,Hisham
+127,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Sweet Potato,126,1.26,1454,,Hisham
+128,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Tapioca,204,2.04,4344,,Hisham
+129,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Tomato,774,7.74,18732,,Hisham
+130,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,VEGETABLE,Others,1625,16.25,22707,,Hisham
+131,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,AROMATIC,AROMATIC,634,6.34,1022,,Hisham
+132,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FLOWER,FLOWERs Cut,,0,,,Hisham
+133,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,FLOWER,FLOWERs Loose,,0,528,,Hisham
+134,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,,Honey,278,2.78,1656,,Hisham
+135,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,PLANTATION CROPS,Arecanut,,0,88,,Hisham
+136,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,PLANTATION CROPS,Cashewnut,474,4.74,714,,Hisham
+137,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,PLANTATION CROPS,Cocoa,1036,10.36,671,,Hisham
+138,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,PLANTATION CROPS,Coconut,81,0.81,17,,Hisham
+139,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Ajwan,2088,20.88,15256,,Hisham
+140,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Cardamom,24,0.24,16,,Hisham
+141,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Chillies (Dried),86,0.86,24,,Hisham
+142,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Cinnamon/Tejpata,811,8.11,1520,,Hisham
+143,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,"Celery,Dill & Poppy",3,0.03,5,,Hisham
+144,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Clove,26,0.26,23,,Hisham
+145,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Coriander,2,0.02,1,,Hisham
+146,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Cumin,582,5.82,585,,Hisham
+147,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Fenugreek,808,8.08,503,,Hisham
+148,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Fennel,219,2.19,247,,Hisham
+149,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Garlic,76,0.76,129,,Hisham
+150,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Ginger,281,2.81,1617,,Hisham
+151,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Nutmeg,164,1.64,1109,,Hisham
+152,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Pepper,21,0.21,14,,Hisham
+153,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Vanilla,129,1.29,55,,Hisham
+154,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Tamarind,4,0.04,0,,Hisham
+155,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Turmeric,53,0.53,194,,Hisham
+156,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2016,SPICES,Mint (Mentha),186,1.86,943,,Hisham
+157,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Almond,12,0.12,7,,Hisham
+158,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Aonla/Gooseberry,93,0.93,1075,,Hisham
+159,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Apple,305,3.05,2265,,Hisham
+160,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Banana,860,8.6,30477,,Hisham
+161,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Ber,50,0.5,545,,Hisham
+162,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,CITRUS,(ii) Mandarin,410,4.1,4438,,Hisham
+163,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,CITRUS,(iii) Sweet Orange( Mosambi),191,1.91,3209,,Hisham
+164,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,CITRUS,(iv) Others,136,1.36,1408,,Hisham
+165,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Custardapple,44,0.44,383,,Hisham
+166,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Grapes,137,1.37,2922,,Hisham
+167,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Guava,260,2.6,3826,,Hisham
+168,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,JackFRUIT,150,1.5,1694,,Hisham
+169,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Kiwi,4,0.04,12,,Hisham
+170,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Litchi,93,0.93,568,,Hisham
+171,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Mango,2212,22.12,19506,,Hisham
+172,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Muskmelon,50,0.5,1097,,Hisham
+173,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Papaya,134,1.34,5940,,Hisham
+174,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Passion Fruit,13,0.13,72,,Hisham
+175,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Peach,18,0.18,106,,Hisham
+176,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Pear,44,0.44,346,,Hisham
+177,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Picanut,1,0.01,0,,Hisham
+178,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Pineapple,111,1.11,1861,,Hisham
+179,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Plum,24,0.24,81,,Hisham
+180,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Pomegranate,216,2.16,2613,,Hisham
+181,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Sapota,99,0.99,1236,,Hisham
+182,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Strawberry,1,0.01,4,,Hisham
+183,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Walnut,112,1.12,287,,Hisham
+184,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Watermelon,91,0.91,2182,,Hisham
+185,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FRUIT,Others,252,2.52,2392,,Hisham
+186,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Beans,198,1.98,2012,,Hisham
+187,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Bittergourd,95,0.95,1030,,Hisham
+188,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Bottlegourd,153,1.53,2529,,Hisham
+189,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Brinjal,733,7.33,12590,,Hisham
+190,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Cabbage,395,3.95,8807,,Hisham
+191,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Capsicum,24,0.24,306,,Hisham
+192,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Carrot,86,0.86,1350,,Hisham
+193,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Cauliflower,454,4.54,8557,,Hisham
+194,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Cucumber,74,0.74,1142,,Hisham
+195,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Chillies (Green),316,3.16,3634,,Hisham
+196,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Elephant Foot Yam,29,0.29,748,,Hisham
+197,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Mushroom,182,1.82,441,,Hisham
+198,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Okra/Ladyfinger,507,5.07,6003,,Hisham
+199,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Onion,1306,13.06,22427,,Hisham
+200,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Parwal/Pointed gourd,18,0.18,268,,Hisham
+201,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Peas,530,5.3,5345,,Hisham
+202,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Potato,2179,21.79,48605,,Hisham
+203,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Radish,203,2.03,2898,,Hisham
+204,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Pumpkin/Sitaphal/Kaddu,74,0.74,1664,,Hisham
+205,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Sweet Potato,128,1.28,1460,,Hisham
+206,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Tapioca,199,1.99,4171,,Hisham
+207,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Tomato,797,7.97,20708,,Hisham
+208,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,VEGETABLE,Others,1558,15.58,21557,,Hisham
+209,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,AROMATIC,AROMATIC,664,6.64,972,,Hisham
+210,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FLOWER,FLOWERs Cut,,0,693,,Hisham
+211,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,FLOWER,FLOWERs Loose,306,3.06,1699,,Hisham
+212,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,,Honey,,0,95,,Hisham
+213,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,PLANTATION CROPS,Arecanut,455,4.55,723,,Hisham
+214,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,PLANTATION CROPS,Cashewnut,978,9.78,745,,Hisham
+215,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,PLANTATION CROPS,Cocoa,83,0.83,19,,Hisham
+216,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,PLANTATION CROPS,Coconut,2082,20.82,16486,,Hisham
+217,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Ajwan,31,0.31,27,,Hisham
+218,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Cardamom,85,0.85,28,,Hisham
+219,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Chillies (Dried),840,8.4,2096,,Hisham
+220,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Cinnamon/Tejpata,3,0.03,5,,Hisham
+221,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,"Celery,Dill & Poppy",36,0.36,35,,Hisham
+222,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Clove,2,0.02,1,,Hisham
+223,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Coriander,674,6.74,883,,Hisham
+224,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Cumin,781,7.81,493,,Hisham
+225,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Fenugreek,210,2.1,297,,Hisham
+226,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Fennel,91,0.91,153,,Hisham
+227,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Garlic,321,3.21,1693,,Hisham
+228,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Ginger,168,1.68,1070,,Hisham
+229,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Nutmeg,23,0.23,15,,Hisham
+230,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Pepper,132,1.32,72,,Hisham
+231,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Vanilla,4,0.04,0,,Hisham
+232,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Tamarind,49,0.49,197,,Hisham
+233,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Turmeric,222,2.22,1056,,Hisham
+234,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2017,SPICES,Mint (Mentha),,0,,,Hisham
+235,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Almond,11,0.11,14,,Hisham
+236,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Aonla/Gooseberry,93,0.93,1075,,Hisham
+237,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Apple,301,3.01,2327,,Hisham
+238,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Banana,884,8.84,30808,,Hisham
+239,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Ber,50,0.5,513,,Hisham
+240,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,CITRUS,(ii) Mandarin,428,4.28,5101,,Hisham
+241,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,CITRUS,(iii) Sweet Orange( Mosambi),185,1.85,3266,,Hisham
+242,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,CITRUS,(iv) Others,103,1.03,1030,,Hisham
+243,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Custardapple,46,0.46,401,,Hisham
+244,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Grapes,139,1.39,2920,,Hisham
+245,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Guava,265,2.65,4054,,Hisham
+246,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,JackFRUIT,185,1.85,1830,,Hisham
+247,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Kiwi,4,0.04,12,,Hisham
+248,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Litchi,92,0.92,686,,Hisham
+249,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Mango,2258,22.58,21822,,Hisham
+250,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Muskmelon,54,0.54,1231,,Hisham
+251,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Papaya,138,1.38,5989,,Hisham
+252,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Passion Fruit,14,0.14,82,,Hisham
+253,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Peach,19,0.19,114,,Hisham
+254,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Pear,44,0.44,318,,Hisham
+255,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Picanut,1,0.01,0,,Hisham
+256,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Pineapple,103,1.03,1706,,Hisham
+257,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Plum,23,0.23,89,,Hisham
+258,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Pomegranate,234,2.34,2845,,Hisham
+259,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Sapota,97,0.97,1176,,Hisham
+260,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Strawberry,1,0.01,5,,Hisham
+261,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Walnut,109,1.09,300,,Hisham
+262,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Watermelon,101,1.01,2520,,Hisham
+263,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FRUIT,Others,238,2.38,1977,,Hisham
+264,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Beans,228,2.28,2277,,Hisham
+265,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Bittergourd,97,0.97,1137,,Hisham
+266,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Bottlegourd,157,1.57,2683,,Hisham
+267,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Brinjal,730,7.3,12801,,Hisham
+268,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Cabbage,399,3.99,9037,,Hisham
+269,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Capsicum,24,0.24,326,,Hisham
+270,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Carrot,97,0.97,1648,,Hisham
+271,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Cauliflower,453,4.53,8668,,Hisham
+272,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Cucumber,82,0.82,1260,,Hisham
+273,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Chillies (Green),309,3.09,3592,,Hisham
+274,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Elephant Foot Yam,30,0.3,774,,Hisham
+275,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Mushroom,198,1.98,487,,Hisham
+276,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Okra/Ladyfinger,509,5.09,6095,,Hisham
+277,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Onion,1285,12.85,23262,,Hisham
+278,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Parwal/Pointed gourd,20,0.2,310,,Hisham
+279,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Peas,540,5.4,5422,,Hisham
+280,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Potato,2142,21.42,51310,,Hisham
+281,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Radish,209,2.09,3061,,Hisham
+282,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Pumpkin/Sitaphal/Kaddu,78,0.78,1714,,Hisham
+283,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Sweet Potato,131,1.31,1500,,Hisham
+284,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Tapioca,173,1.73,4950,,Hisham
+285,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Tomato,789,7.89,19759,,Hisham
+286,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,VEGETABLE,Others,1580,15.8,22320,,Hisham
+287,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,AROMATIC,AROMATIC,720,7.2,866,,Hisham
+288,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FLOWER,FLOWERs Cut,,0,823,,Hisham
+289,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,FLOWER,FLOWERs Loose,324,3.24,1962,,Hisham
+290,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,,Honey,,0,105,,Hisham
+291,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,PLANTATION CROPS,Arecanut,497,4.97,833,,Hisham
+292,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,PLANTATION CROPS,Cashewnut,1062,10.62,817,,Hisham
+293,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,PLANTATION CROPS,Cocoa,89,0.89,20,,Hisham
+294,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,PLANTATION CROPS,Coconut,2097,20.97,16413,,Hisham
+295,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Ajwan,35,0.35,24,,Hisham
+296,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Cardamom,84,0.84,28,,Hisham
+297,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Chillies (Dried),752,7.52,2149,,Hisham
+298,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Cinnamon/Tejpata,3,0.03,5,,Hisham
+299,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,"Celery,Dill & Poppy",36,0.36,34,,Hisham
+300,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Clove,2,0.02,1,,Hisham
+301,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Coriander,532,5.32,710,,Hisham
+302,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Cumin,966,9.66,689,,Hisham
+303,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Fenugreek,149,1.49,202,,Hisham
+304,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Fennel,66,0.66,104,,Hisham
+305,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Garlic,317,3.17,1611,,Hisham
+306,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Ginger,160,1.6,1118,,Hisham
+307,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Nutmeg,23,0.23,15,,Hisham
+308,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Pepper,134,1.34,66,,Hisham
+309,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Vanilla,5,0.05,0,,Hisham
+310,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Tamarind,48,0.48,201,,Hisham
+311,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Turmeric,238,2.38,1133,,Hisham
+312,7_1_2,Crop-wise Area and Production of Horticulture Crops for three years,2018,SPICES,Mint (Mentha),327,3.27,33,,Hisham

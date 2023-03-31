@@ -1,0 +1,472 @@
+id,table_num,table_name,year,crop_name,crop_type,area_in_1k_ha,area_in_1k_sq_km,production_in_1k_mt,productivity_in_mt_per_ha,student_name
+1,7_1_3,"Lemon, Orange and Mosambi",2001,Lime/Lemon,FRUIT,164.2,1.642,1377.2,8.4,Hisham
+2,7_1_3,"Lemon, Orange and Mosambi",2002,Lime/Lemon,FRUIT,161.3,1.613,1413.7,8.8,Hisham
+3,7_1_3,"Lemon, Orange and Mosambi",2003,Lime/Lemon,FRUIT,146.2,1.462,1439.6,9.8,Hisham
+4,7_1_3,"Lemon, Orange and Mosambi",2004,Lime/Lemon,FRUIT,167.8,1.678,1493.3,8.9,Hisham
+5,7_1_3,"Lemon, Orange and Mosambi",2005,Lime/Lemon,FRUIT,78.9,0.789,1033.1,13.1,Hisham
+6,7_1_3,"Lemon, Orange and Mosambi",2006,Lime/Lemon,FRUIT,268.7,2.687,2159,8,Hisham
+7,7_1_3,"Lemon, Orange and Mosambi",2007,Lime/Lemon,FRUIT,294.9,2.949,2310.2,7.8,Hisham
+8,7_1_3,"Lemon, Orange and Mosambi",2008,Lime/Lemon,FRUIT,302.8,3.028,2501.7,8.3,Hisham
+9,7_1_3,"Lemon, Orange and Mosambi",2009,Lime/Lemon,FRUIT,316.1,3.161,2571.5,8.1,Hisham
+10,7_1_3,"Lemon, Orange and Mosambi",2010,Lime/Lemon,FRUIT,295.6,2.956,2629.2,8.9,Hisham
+11,7_1_3,"Lemon, Orange and Mosambi",2011,Lime/Lemon,FRUIT,219,2.19,2108,9.6,Hisham
+12,7_1_3,"Lemon, Orange and Mosambi",2012,Lime/Lemon,FRUIT,234,2.34,2272.1,9.7,Hisham
+13,7_1_3,"Lemon, Orange and Mosambi",2013,Lime/Lemon,FRUIT,255.2,2.552,2523.5,9.9,Hisham
+14,7_1_3,"Lemon, Orange and Mosambi",2014,Lime/Lemon,FRUIT,286.4,2.864,2835,9.9,Hisham
+15,7_1_3,"Lemon, Orange and Mosambi",2015,Lime/Lemon,FRUIT,268.4,2.684,2950.4,11,Hisham
+16,7_1_3,"Lemon, Orange and Mosambi",2016,Lime/Lemon,FRUIT,245.2,2.452,2437.6,9.9,Hisham
+17,7_1_3,"Lemon, Orange and Mosambi",2017,Lime/Lemon,FRUIT,248.2,2.482,2363.7,9.5,Hisham
+18,7_1_3,"Lemon, Orange and Mosambi",2018,Lime/Lemon,FRUIT,286.2,2.862,3148.5,11,Hisham
+19,7_1_3,"Lemon, Orange and Mosambi",2001,Orange,FRUIT,NA,NA,NA,NA,Hisham
+20,7_1_3,"Lemon, Orange and Mosambi",2002,Orange,FRUIT,198.9,1.989,1660.1,8.3,Hisham
+21,7_1_3,"Lemon, Orange and Mosambi",2003,Orange,FRUIT,142.8,1.428,1136.6,8,Hisham
+22,7_1_3,"Lemon, Orange and Mosambi",2004,Orange,FRUIT,183.4,1.834,1244.1,6.8,Hisham
+23,7_1_3,"Lemon, Orange and Mosambi",2005,Orange,FRUIT,183.6,1.836,1235.7,6.7,Hisham
+24,7_1_3,"Lemon, Orange and Mosambi",2006,Orange,FRUIT,210.8,2.108,1298.8,6.2,Hisham
+25,7_1_3,"Lemon, Orange and Mosambi",2007,Orange,FRUIT,198.4,1.984,1357.5,6.8,Hisham
+26,7_1_3,"Lemon, Orange and Mosambi",2008,Orange,FRUIT,218.1,2.181,1461.7,6.7,Hisham
+27,7_1_3,"Lemon, Orange and Mosambi",2009,Orange,FRUIT,245.5,2.455,1634,6.7,Hisham
+28,7_1_3,"Lemon, Orange and Mosambi",2010,Orange,FRUIT,285,2.85,2084,7.3,Hisham
+29,7_1_3,"Lemon, Orange and Mosambi",2011,Orange,FRUIT,324,3.24,3255,10,Hisham
+30,7_1_3,"Lemon, Orange and Mosambi",2012,Orange,FRUIT,329.1,3.291,3128.5,9.5,Hisham
+31,7_1_3,"Lemon, Orange and Mosambi",2013,Orange,FRUIT,311.2,3.112,2906.3,9.3,Hisham
+32,7_1_3,"Lemon, Orange and Mosambi",2014,Orange,FRUIT,330,3.3,3431.4,10.4,Hisham
+33,7_1_3,"Lemon, Orange and Mosambi",2015,Orange,FRUIT,299.2,2.992,3699,12.4,Hisham
+34,7_1_3,"Lemon, Orange and Mosambi",2016,Orange,FRUIT,396.9,3.969,4112.8,10.4,Hisham
+35,7_1_3,"Lemon, Orange and Mosambi",2017,Orange,FRUIT,410.2,4.102,4437.5,10.8,Hisham
+36,7_1_3,"Lemon, Orange and Mosambi",2018,Orange,FRUIT,428.3,4.283,5101.2,11.9,Hisham
+37,7_1_3,"Lemon, Orange and Mosambi",2001,Mosambi,FRUIT,80.6,0.806,1160.4,14.4,Hisham
+38,7_1_3,"Lemon, Orange and Mosambi",2002,Mosambi,FRUIT,126.4,1.264,1210.4,9.6,Hisham
+39,7_1_3,"Lemon, Orange and Mosambi",2003,Mosambi,FRUIT,146.1,1.461,785.3,5.4,Hisham
+40,7_1_3,"Lemon, Orange and Mosambi",2004,Mosambi,FRUIT,194.5,1.945,2019.1,10.4,Hisham
+41,7_1_3,"Lemon, Orange and Mosambi",2005,Mosambi,FRUIT,194.4,1.944,2078.7,10.7,Hisham
+42,7_1_3,"Lemon, Orange and Mosambi",2006,Mosambi,FRUIT,230.3,2.303,2138.6,9.3,Hisham
+43,7_1_3,"Lemon, Orange and Mosambi",2007,Mosambi,FRUIT,268.8,2.688,2909.4,10.8,Hisham
+44,7_1_3,"Lemon, Orange and Mosambi",2008,Mosambi,FRUIT,300.2,3.002,3398.6,11.3,Hisham
+45,7_1_3,"Lemon, Orange and Mosambi",2009,Mosambi,FRUIT,317.8,3.178,3567.4,11.2,Hisham
+46,7_1_3,"Lemon, Orange and Mosambi",2010,Mosambi,FRUIT,346.3,3.463,3882.4,11.2,Hisham
+47,7_1_3,"Lemon, Orange and Mosambi",2011,Mosambi,FRUIT,157,1.57,1316,8.4,Hisham
+48,7_1_3,"Lemon, Orange and Mosambi",2012,Mosambi,FRUIT,161.7,1.617,1231.9,7.6,Hisham
+49,7_1_3,"Lemon, Orange and Mosambi",2013,Mosambi,FRUIT,323.2,3.232,3519.9,10.9,Hisham
+50,7_1_3,"Lemon, Orange and Mosambi",2014,Mosambi,FRUIT,334.9,3.349,3886.2,11.6,Hisham
+51,7_1_3,"Lemon, Orange and Mosambi",2015,Mosambi,FRUIT,274.7,2.747,4229,15.4,Hisham
+52,7_1_3,"Lemon, Orange and Mosambi",2016,Mosambi,FRUIT,243.8,2.438,3468.1,14.2,Hisham
+53,7_1_3,"Lemon, Orange and Mosambi",2017,Mosambi,FRUIT,191.2,1.912,3209.4,16.8,Hisham
+54,7_1_3,"Lemon, Orange and Mosambi",2018,Mosambi,FRUIT,184.6,1.846,3265.8,17.7,Hisham
+55,7_1_4,"Apple, Banana and Grapes",1992,Apple,FRUIT,194.5,1.945,1147.7,5.9,Hisham
+56,7_1_4,"Apple, Banana and Grapes",2001,Apple,FRUIT,239.8,2.398,1226.6,5.1,Hisham
+57,7_1_4,"Apple, Banana and Grapes",2002,Apple,FRUIT,241.8,2.418,1158.4,4.8,Hisham
+58,7_1_4,"Apple, Banana and Grapes",2003,Apple,FRUIT,193.1,1.931,1348.4,7,Hisham
+59,7_1_4,"Apple, Banana and Grapes",2004,Apple,FRUIT,201.2,2.012,1521.6,7.6,Hisham
+60,7_1_4,"Apple, Banana and Grapes",2005,Apple,FRUIT,230.7,2.307,1739,7.5,Hisham
+61,7_1_4,"Apple, Banana and Grapes",2006,Apple,FRUIT,226.8,2.268,1814,8,Hisham
+62,7_1_4,"Apple, Banana and Grapes",2007,Apple,FRUIT,252,2.52,1624,6.4,Hisham
+63,7_1_4,"Apple, Banana and Grapes",2008,Apple,FRUIT,264,2.64,2001,7.6,Hisham
+64,7_1_4,"Apple, Banana and Grapes",2009,Apple,FRUIT,274,2.74,1985,7.2,Hisham
+65,7_1_4,"Apple, Banana and Grapes",2010,Apple,FRUIT,282.9,2.829,1777.2,6.3,Hisham
+66,7_1_4,"Apple, Banana and Grapes",2011,Apple,FRUIT,289.1,2.891,2891,10,Hisham
+67,7_1_4,"Apple, Banana and Grapes",2012,Apple,FRUIT,321.9,3.219,2203.4,6.8,Hisham
+68,7_1_4,"Apple, Banana and Grapes",2013,Apple,FRUIT,311.5,3.115,1915.4,6.1,Hisham
+69,7_1_4,"Apple, Banana and Grapes",2014,Apple,FRUIT,313,3.13,2497.7,8,Hisham
+70,7_1_4,"Apple, Banana and Grapes",2015,Apple,FRUIT,319.2,3.192,2133.8,6.7,Hisham
+71,7_1_4,"Apple, Banana and Grapes",2016,Apple,FRUIT,277.2,2.772,2521.1,9.1,Hisham
+72,7_1_4,"Apple, Banana and Grapes",2017,Apple,FRUIT,304.9,3.049,2265.2,7.4,Hisham
+73,7_1_4,"Apple, Banana and Grapes",2018,Apple,FRUIT,301,3.01,2326.9,7.7,Hisham
+74,7_1_4,"Apple, Banana and Grapes",1992,Banana,FRUIT,383.9,3.839,7790,20.3,Hisham
+75,7_1_4,"Apple, Banana and Grapes",2001,Banana,FRUIT,NA,NA,NA,NA,Hisham
+76,7_1_4,"Apple, Banana and Grapes",2002,Banana,FRUIT,466.2,4.662,14209.9,30.5,Hisham
+77,7_1_4,"Apple, Banana and Grapes",2003,Banana,FRUIT,475.3,4.753,13304.4,28,Hisham
+78,7_1_4,"Apple, Banana and Grapes",2004,Banana,FRUIT,498.6,4.986,13856.6,27.8,Hisham
+79,7_1_4,"Apple, Banana and Grapes",2005,Banana,FRUIT,589.6,5.896,16744.5,28.4,Hisham
+80,7_1_4,"Apple, Banana and Grapes",2006,Banana,FRUIT,569.5,5.695,18887.8,33.2,Hisham
+81,7_1_4,"Apple, Banana and Grapes",2007,Banana,FRUIT,604,6.04,20998,34.8,Hisham
+82,7_1_4,"Apple, Banana and Grapes",2008,Banana,FRUIT,658,6.58,23823,36.2,Hisham
+83,7_1_4,"Apple, Banana and Grapes",2009,Banana,FRUIT,709,7.09,26217,37,Hisham
+84,7_1_4,"Apple, Banana and Grapes",2010,Banana,FRUIT,770.3,7.703,26469.5,34.4,Hisham
+85,7_1_4,"Apple, Banana and Grapes",2011,Banana,FRUIT,830,8.3,29780,35.9,Hisham
+86,7_1_4,"Apple, Banana and Grapes",2012,Banana,FRUIT,796.5,7.965,28455.1,35.7,Hisham
+87,7_1_4,"Apple, Banana and Grapes",2013,Banana,FRUIT,776,7.76,26509.1,34.2,Hisham
+88,7_1_4,"Apple, Banana and Grapes",2014,Banana,FRUIT,802.6,8.026,29724.6,37,Hisham
+89,7_1_4,"Apple, Banana and Grapes",2015,Banana,FRUIT,821.8,8.218,29221.4,35.5,Hisham
+90,7_1_4,"Apple, Banana and Grapes",2016,Banana,FRUIT,841.2,8.412,29134.8,34.6,Hisham
+91,7_1_4,"Apple, Banana and Grapes",2017,Banana,FRUIT,860,8.6,30477.2,35.4,Hisham
+92,7_1_4,"Apple, Banana and Grapes",2018,Banana,FRUIT,883.8,8.838,30807.5,34.9,Hisham
+93,7_1_4,"Apple, Banana and Grapes",1992,Grapes,FRUIT,32.4,0.324,668.2,20.6,Hisham
+94,7_1_4,"Apple, Banana and Grapes",2001,Grapes,FRUIT,NA,NA,NA,NA,Hisham
+95,7_1_4,"Apple, Banana and Grapes",2002,Grapes,FRUIT,47.5,0.475,1184.2,24.9,Hisham
+96,7_1_4,"Apple, Banana and Grapes",2003,Grapes,FRUIT,52.1,0.521,1247.8,24,Hisham
+97,7_1_4,"Apple, Banana and Grapes",2004,Grapes,FRUIT,57.8,0.578,1474.8,25.5,Hisham
+98,7_1_4,"Apple, Banana and Grapes",2005,Grapes,FRUIT,60.5,0.605,1564.7,25.9,Hisham
+99,7_1_4,"Apple, Banana and Grapes",2006,Grapes,FRUIT,66,0.66,1649.6,25,Hisham
+100,7_1_4,"Apple, Banana and Grapes",2007,Grapes,FRUIT,65,0.65,1685,25.9,Hisham
+101,7_1_4,"Apple, Banana and Grapes",2008,Grapes,FRUIT,68,0.68,1735,25.5,Hisham
+102,7_1_4,"Apple, Banana and Grapes",2009,Grapes,FRUIT,80,0.8,1878,23.5,Hisham
+103,7_1_4,"Apple, Banana and Grapes",2010,Grapes,FRUIT,106.4,1.064,880.7,8.3,Hisham
+104,7_1_4,"Apple, Banana and Grapes",2011,Grapes,FRUIT,111,1.11,1235,11.1,Hisham
+105,7_1_4,"Apple, Banana and Grapes",2012,Grapes,FRUIT,116,1.16,2220.9,19.1,Hisham
+106,7_1_4,"Apple, Banana and Grapes",2013,Grapes,FRUIT,117.6,1.176,2483.1,21.1,Hisham
+107,7_1_4,"Apple, Banana and Grapes",2014,Grapes,FRUIT,118.7,1.187,2585.3,21.8,Hisham
+108,7_1_4,"Apple, Banana and Grapes",2015,Grapes,FRUIT,123,1.23,2822.8,22.9,Hisham
+109,7_1_4,"Apple, Banana and Grapes",2016,Grapes,FRUIT,121.6,1.216,2590,21.3,Hisham
+110,7_1_4,"Apple, Banana and Grapes",2017,Grapes,FRUIT,136.6,1.366,2921.7,21.4,Hisham
+111,7_1_4,"Apple, Banana and Grapes",2018,Grapes,FRUIT,138.9,1.389,2920.1,21,Hisham
+112,7_1_5,"Guava, Litchi and Mango",1992,Guava,FRUIT,94,0.94,1095.1,11.7,Devika
+113,7_1_5,"Guava, Litchi and Mango",2002,Guava,FRUIT,154.6,1.546,1715.5,11.1,Devika
+114,7_1_5,"Guava, Litchi and Mango",2003,Guava,FRUIT,154.6,1.546,1793,11.6,Devika
+115,7_1_5,"Guava, Litchi and Mango",2004,Guava,FRUIT,166.4,1.664,1830.7,11,Devika
+116,7_1_5,"Guava, Litchi and Mango",2005,Guava,FRUIT,161,1.61,1682.8,10.5,Devika
+117,7_1_5,"Guava, Litchi and Mango",2006,Guava,FRUIT,166.5,1.665,1736.6,10.4,Devika
+118,7_1_5,"Guava, Litchi and Mango",2007,Guava,FRUIT,176,1.76,1831,10.4,Devika
+119,7_1_5,"Guava, Litchi and Mango",2008,Guava,FRUIT,179,1.79,1981,11.1,Devika
+120,7_1_5,"Guava, Litchi and Mango",2009,Guava,FRUIT,204,2.04,2270,11.1,Devika
+121,7_1_5,"Guava, Litchi and Mango",2010,Guava,FRUIT,219.7,2.197,2571.5,11.7,Devika
+122,7_1_5,"Guava, Litchi and Mango",2011,Guava,FRUIT,205,2.05,2462,12,Devika
+123,7_1_5,"Guava, Litchi and Mango",2012,Guava,FRUIT,219.9,2.199,2510.4,11.4,Devika
+124,7_1_5,"Guava, Litchi and Mango",2013,Guava,FRUIT,235.6,2.356,3198.3,13.6,Devika
+125,7_1_5,"Guava, Litchi and Mango",2014,Guava,FRUIT,268.2,2.682,3667.9,13.7,Devika
+126,7_1_5,"Guava, Litchi and Mango",2015,Guava,FRUIT,246.2,2.462,3993.5,16.2,Devika
+127,7_1_5,"Guava, Litchi and Mango",2016,Guava,FRUIT,254.9,2.549,4047.8,15.9,Devika
+128,7_1_5,"Guava, Litchi and Mango",2017,Guava,FRUIT,260.1,2.601,3826.4,14.7,Devika
+129,7_1_5,"Guava, Litchi and Mango",2018,Guava,FRUIT,264.9,2.649,4053.5,15.3,Devika
+130,7_1_5,"Guava, Litchi and Mango",1992,Litchi,FRUIT,49.3,0.493,243.8,4.9,Devika
+131,7_1_5,"Guava, Litchi and Mango",2002,Litchi,FRUIT,58.1,0.581,355.9,6.1,Devika
+132,7_1_5,"Guava, Litchi and Mango",2003,Litchi,FRUIT,54.1,0.541,476.4,8.8,Devika
+133,7_1_5,"Guava, Litchi and Mango",2004,Litchi,FRUIT,53.7,0.537,478.5,8.9,Devika
+134,7_1_5,"Guava, Litchi and Mango",2005,Litchi,FRUIT,60,0.6,368.6,6.1,Devika
+135,7_1_5,"Guava, Litchi and Mango",2006,Litchi,FRUIT,63.2,0.632,392.1,6.2,Devika
+136,7_1_5,"Guava, Litchi and Mango",2007,Litchi,FRUIT,65,0.65,403,6.2,Devika
+137,7_1_5,"Guava, Litchi and Mango",2008,Litchi,FRUIT,69,0.69,418,6.1,Devika
+138,7_1_5,"Guava, Litchi and Mango",2009,Litchi,FRUIT,72,0.72,423,5.9,Devika
+139,7_1_5,"Guava, Litchi and Mango",2010,Litchi,FRUIT,74.4,0.744,483,6.5,Devika
+140,7_1_5,"Guava, Litchi and Mango",2011,Litchi,FRUIT,78,0.78,497,6.4,Devika
+141,7_1_5,"Guava, Litchi and Mango",2012,Litchi,FRUIT,80.4,0.804,538.1,6.7,Devika
+142,7_1_5,"Guava, Litchi and Mango",2013,Litchi,FRUIT,82.7,0.827,580.1,7,Devika
+143,7_1_5,"Guava, Litchi and Mango",2014,Litchi,FRUIT,84.2,0.842,585.3,7,Devika
+144,7_1_5,"Guava, Litchi and Mango",2015,Litchi,FRUIT,85,0.85,528.3,6.2,Devika
+145,7_1_5,"Guava, Litchi and Mango",2016,Litchi,FRUIT,90.1,0.901,558.8,6.2,Devika
+146,7_1_5,"Guava, Litchi and Mango",2017,Litchi,FRUIT,93.3,0.933,568.2,6.1,Devika
+147,7_1_5,"Guava, Litchi and Mango",2018,Litchi,FRUIT,92.3,0.923,686.4,7.4,Devika
+148,7_1_5,"Guava, Litchi and Mango",1992,Mango,FRUIT,1077.6,10.776,8715.6,8.1,Devika
+149,7_1_5,"Guava, Litchi and Mango",2002,Mango,FRUIT,1575.8,15.758,10020.2,6.4,Devika
+150,7_1_5,"Guava, Litchi and Mango",2003,Mango,FRUIT,1623.4,16.234,12733.2,7.8,Devika
+151,7_1_5,"Guava, Litchi and Mango",2004,Mango,FRUIT,1906.7,19.067,11490,6,Devika
+152,7_1_5,"Guava, Litchi and Mango",2005,Mango,FRUIT,1970.4,19.704,11829.7,6,Devika
+153,7_1_5,"Guava, Litchi and Mango",2006,Mango,FRUIT,2080.7,20.807,12663.1,6.1,Devika
+154,7_1_5,"Guava, Litchi and Mango",2007,Mango,FRUIT,2154,21.54,13734,6.4,Devika
+155,7_1_5,"Guava, Litchi and Mango",2008,Mango,FRUIT,2201,22.01,13997,6.4,Devika
+156,7_1_5,"Guava, Litchi and Mango",2009,Mango,FRUIT,2309,23.09,12750,5.5,Devika
+157,7_1_5,"Guava, Litchi and Mango",2010,Mango,FRUIT,2312.3,23.123,15026.7,6.5,Devika
+158,7_1_5,"Guava, Litchi and Mango",2011,Mango,FRUIT,2297,22.97,15188,6.6,Devika
+159,7_1_5,"Guava, Litchi and Mango",2012,Mango,FRUIT,2378.1,23.781,16196.4,6.8,Devika
+160,7_1_5,"Guava, Litchi and Mango",2013,Mango,FRUIT,2500,25,18002.4,7.2,Devika
+161,7_1_5,"Guava, Litchi and Mango",2014,Mango,FRUIT,2516,25.16,18431.3,7.3,Devika
+162,7_1_5,"Guava, Litchi and Mango",2015,Mango,FRUIT,2163.5,21.635,18527,8.5,Devika
+163,7_1_5,"Guava, Litchi and Mango",2016,Mango,FRUIT,2208.6,22.086,18642.5,8.4,Devika
+164,7_1_5,"Guava, Litchi and Mango",2017,Mango,FRUIT,2212.2,22.122,19506.2,8.8,Devika
+165,7_1_5,"Guava, Litchi and Mango",2018,Mango,FRUIT,2258.1,22.581,21822.3,9.7,Devika
+166,7_1_6,"Papaya, Pineapple and Sapota",1992,Papaya,FRUIT,45.2,0.452,805.3,17.8,Devika
+167,7_1_6,"Papaya, Pineapple and Sapota",2002,Papaya,FRUIT,73.7,0.737,2590.4,35.1,Devika
+168,7_1_6,"Papaya, Pineapple and Sapota",2003,Papaya,FRUIT,68,0.68,2147.2,31.6,Devika
+169,7_1_6,"Papaya, Pineapple and Sapota",2004,Papaya,FRUIT,58.2,0.582,1692.1,29.1,Devika
+170,7_1_6,"Papaya, Pineapple and Sapota",2005,Papaya,FRUIT,73.8,0.738,2535.1,34.4,Devika
+171,7_1_6,"Papaya, Pineapple and Sapota",2006,Papaya,FRUIT,67.8,0.678,2139.3,31.6,Devika
+172,7_1_6,"Papaya, Pineapple and Sapota",2007,Papaya,FRUIT,72,0.72,2482,34.5,Devika
+173,7_1_6,"Papaya, Pineapple and Sapota",2008,Papaya,FRUIT,83,0.83,2909,35,Devika
+174,7_1_6,"Papaya, Pineapple and Sapota",2009,Papaya,FRUIT,98,0.98,3629,37,Devika
+175,7_1_6,"Papaya, Pineapple and Sapota",2010,Papaya,FRUIT,95.7,0.957,3913.5,40.9,Devika
+176,7_1_6,"Papaya, Pineapple and Sapota",2011,Papaya,FRUIT,106,1.06,4196,39.6,Devika
+177,7_1_6,"Papaya, Pineapple and Sapota",2012,Papaya,FRUIT,117.4,1.174,4457.1,38,Devika
+178,7_1_6,"Papaya, Pineapple and Sapota",2013,Papaya,FRUIT,132.2,1.322,5381.7,40.7,Devika
+179,7_1_6,"Papaya, Pineapple and Sapota",2014,Papaya,FRUIT,133.4,1.334,5639.3,42.3,Devika
+180,7_1_6,"Papaya, Pineapple and Sapota",2015,Papaya,FRUIT,115,1.15,4912.7,42.7,Devika
+181,7_1_6,"Papaya, Pineapple and Sapota",2016,Papaya,FRUIT,132.4,1.324,5667.1,42.8,Devika
+182,7_1_6,"Papaya, Pineapple and Sapota",2017,Papaya,FRUIT,134.4,1.344,5940,44.2,Devika
+183,7_1_6,"Papaya, Pineapple and Sapota",2018,Papaya,FRUIT,138.4,1.384,5988.8,43.3,Devika
+184,7_1_6,"Papaya, Pineapple and Sapota",1992,Pineapple,FRUIT,57.1,0.571,768.5,13.5,Devika
+185,7_1_6,"Papaya, Pineapple and Sapota",2002,Pineapple,FRUIT,77.2,0.772,1182.1,15.3,Devika
+186,7_1_6,"Papaya, Pineapple and Sapota",2003,Pineapple,FRUIT,79.8,0.798,1171.7,14.7,Devika
+187,7_1_6,"Papaya, Pineapple and Sapota",2004,Pineapple,FRUIT,80.9,0.809,1234.2,15.3,Devika
+188,7_1_6,"Papaya, Pineapple and Sapota",2005,Pineapple,FRUIT,82.8,0.828,1278.9,15.4,Devika
+189,7_1_6,"Papaya, Pineapple and Sapota",2006,Pineapple,FRUIT,82.4,0.824,1262.6,15.3,Devika
+190,7_1_6,"Papaya, Pineapple and Sapota",2007,Pineapple,FRUIT,87,0.87,1362,15.7,Devika
+191,7_1_6,"Papaya, Pineapple and Sapota",2008,Pineapple,FRUIT,80,0.8,1245,15.6,Devika
+192,7_1_6,"Papaya, Pineapple and Sapota",2009,Pineapple,FRUIT,84,0.84,1341,16,Devika
+193,7_1_6,"Papaya, Pineapple and Sapota",2010,Pineapple,FRUIT,91.9,0.919,1386.8,15.1,Devika
+194,7_1_6,"Papaya, Pineapple and Sapota",2011,Pineapple,FRUIT,89,0.89,1415,15.9,Devika
+195,7_1_6,"Papaya, Pineapple and Sapota",2012,Pineapple,FRUIT,102.4,1.024,1500,14.6,Devika
+196,7_1_6,"Papaya, Pineapple and Sapota",2013,Pineapple,FRUIT,105.2,1.052,1570.6,14.9,Devika
+197,7_1_6,"Papaya, Pineapple and Sapota",2014,Pineapple,FRUIT,109.9,1.099,1736.7,15.8,Devika
+198,7_1_6,"Papaya, Pineapple and Sapota",2015,Pineapple,FRUIT,114.1,1.141,1976.2,17.3,Devika
+199,7_1_6,"Papaya, Pineapple and Sapota",2016,Pineapple,FRUIT,109.8,1.098,1924.2,17.5,Devika
+200,7_1_6,"Papaya, Pineapple and Sapota",2017,Pineapple,FRUIT,111.3,1.113,1861.1,16.7,Devika
+201,7_1_6,"Papaya, Pineapple and Sapota",2018,Pineapple,FRUIT,103,1.03,1705.8,16.6,Devika
+202,7_1_6,"Papaya, Pineapple and Sapota",1992,Sapota,FRUIT,27.2,0.272,396.2,14.6,Devika
+203,7_1_6,"Papaya, Pineapple and Sapota",2002,Sapota,FRUIT,52,0.52,593.5,11.4,Devika
+204,7_1_6,"Papaya, Pineapple and Sapota",2003,Sapota,FRUIT,84.2,0.842,913.1,10.8,Devika
+205,7_1_6,"Papaya, Pineapple and Sapota",2004,Sapota,FRUIT,120.6,1.206,921.3,7.6,Devika
+206,7_1_6,"Papaya, Pineapple and Sapota",2005,Sapota,FRUIT,134.1,1.341,1076.5,8,Devika
+207,7_1_6,"Papaya, Pineapple and Sapota",2006,Sapota,FRUIT,139.7,1.397,1114,8,Devika
+208,7_1_6,"Papaya, Pineapple and Sapota",2007,Sapota,FRUIT,149,1.49,1216,8.2,Devika
+209,7_1_6,"Papaya, Pineapple and Sapota",2008,Sapota,FRUIT,152,1.52,1258,8.3,Devika
+210,7_1_6,"Papaya, Pineapple and Sapota",2009,Sapota,FRUIT,156,1.56,1308,8.4,Devika
+211,7_1_6,"Papaya, Pineapple and Sapota",2010,Sapota,FRUIT,158.9,1.589,1346.8,8.5,Devika
+212,7_1_6,"Papaya, Pineapple and Sapota",2011,Sapota,FRUIT,160,1.6,1424,8.9,Devika
+213,7_1_6,"Papaya, Pineapple and Sapota",2012,Sapota,FRUIT,163.4,1.634,1425.8,8.7,Devika
+214,7_1_6,"Papaya, Pineapple and Sapota",2013,Sapota,FRUIT,163.9,1.639,1495,9.1,Devika
+215,7_1_6,"Papaya, Pineapple and Sapota",2014,Sapota,FRUIT,177,1.77,1744.3,9.9,Devika
+216,7_1_6,"Papaya, Pineapple and Sapota",2015,Sapota,FRUIT,106.5,1.065,1339,12.5,Devika
+217,7_1_6,"Papaya, Pineapple and Sapota",2016,Sapota,FRUIT,106.7,1.067,1293.8,12.1,Devika
+218,7_1_6,"Papaya, Pineapple and Sapota",2017,Sapota,FRUIT,98.5,0.985,1235.6,12.5,Devika
+219,7_1_6,"Papaya, Pineapple and Sapota",2018,Sapota,FRUIT,97.3,0.973,1175.9,12.1,Devika
+220,7_1_7,"Brinjal, Cabbage and Cauliflower",1992,Brinjal,VEGETABLE,NA,NA,NA,NA,Devika
+221,7_1_7,"Brinjal, Cabbage and Cauliflower",2002,Brinjal,VEGETABLE,502.4,5.024,8347.7,16.6,Devika
+222,7_1_7,"Brinjal, Cabbage and Cauliflower",2003,Brinjal,VEGETABLE,507.3,5.073,8001.2,15.8,Devika
+223,7_1_7,"Brinjal, Cabbage and Cauliflower",2004,Brinjal,VEGETABLE,516.4,5.164,8477.3,16.4,Devika
+224,7_1_7,"Brinjal, Cabbage and Cauliflower",2005,Brinjal,VEGETABLE,526.5,5.265,8600.8,16.3,Devika
+225,7_1_7,"Brinjal, Cabbage and Cauliflower",2006,Brinjal,VEGETABLE,559.7,5.597,9364.6,16.7,Devika
+226,7_1_7,"Brinjal, Cabbage and Cauliflower",2007,Brinjal,VEGETABLE,568,5.68,9453,16.6,Devika
+227,7_1_7,"Brinjal, Cabbage and Cauliflower",2008,Brinjal,VEGETABLE,561,5.61,9678,17.3,Devika
+228,7_1_7,"Brinjal, Cabbage and Cauliflower",2009,Brinjal,VEGETABLE,600,6,10378,17.3,Devika
+229,7_1_7,"Brinjal, Cabbage and Cauliflower",2010,Brinjal,VEGETABLE,612,6.12,10563,17.3,Devika
+230,7_1_7,"Brinjal, Cabbage and Cauliflower",2011,Brinjal,VEGETABLE,680,6.8,11896,17.5,Devika
+231,7_1_7,"Brinjal, Cabbage and Cauliflower",2012,Brinjal,VEGETABLE,691.5,6.915,12634.1,18.3,Devika
+232,7_1_7,"Brinjal, Cabbage and Cauliflower",2013,Brinjal,VEGETABLE,722.1,7.221,13443.6,18.6,Devika
+233,7_1_7,"Brinjal, Cabbage and Cauliflower",2014,Brinjal,VEGETABLE,711,7.11,13558,19.1,Devika
+234,7_1_7,"Brinjal, Cabbage and Cauliflower",2015,Brinjal,VEGETABLE,673.1,6.731,12588.5,18.7,Devika
+235,7_1_7,"Brinjal, Cabbage and Cauliflower",2016,Brinjal,VEGETABLE,662.5,6.625,12515.2,18.9,Devika
+236,7_1_7,"Brinjal, Cabbage and Cauliflower",2017,Brinjal,VEGETABLE,733.2,7.332,12510.5,17.1,Devika
+237,7_1_7,"Brinjal, Cabbage and Cauliflower",2018,Brinjal,VEGETABLE,730.4,7.304,12800.8,17.5,Devika
+238,7_1_7,"Brinjal, Cabbage and Cauliflower",1992,Cabbage,VEGETABLE,177.3,1.773,2771.2,15.6,Devika
+239,7_1_7,"Brinjal, Cabbage and Cauliflower",2002,Cabbage,VEGETABLE,258.1,2.581,5678.2,22,Devika
+240,7_1_7,"Brinjal, Cabbage and Cauliflower",2003,Cabbage,VEGETABLE,233.8,2.338,5392,23.1,Devika
+241,7_1_7,"Brinjal, Cabbage and Cauliflower",2004,Cabbage,VEGETABLE,255.1,2.551,5594.6,21.9,Devika
+242,7_1_7,"Brinjal, Cabbage and Cauliflower",2005,Cabbage,VEGETABLE,287.8,2.878,6113.5,21.2,Devika
+243,7_1_7,"Brinjal, Cabbage and Cauliflower",2006,Cabbage,VEGETABLE,253.5,2.535,5637.3,22.2,Devika
+244,7_1_7,"Brinjal, Cabbage and Cauliflower",2007,Cabbage,VEGETABLE,249,2.49,5584,22.4,Devika
+245,7_1_7,"Brinjal, Cabbage and Cauliflower",2008,Cabbage,VEGETABLE,266,2.66,5910,22.2,Devika
+246,7_1_7,"Brinjal, Cabbage and Cauliflower",2009,Cabbage,VEGETABLE,310,3.1,6870,22.2,Devika
+247,7_1_7,"Brinjal, Cabbage and Cauliflower",2010,Cabbage,VEGETABLE,331,3.31,7281.4,22,Devika
+248,7_1_7,"Brinjal, Cabbage and Cauliflower",2011,Cabbage,VEGETABLE,369,3.69,7949,21.5,Devika
+249,7_1_7,"Brinjal, Cabbage and Cauliflower",2012,Cabbage,VEGETABLE,389.6,3.896,8412.1,21.6,Devika
+250,7_1_7,"Brinjal, Cabbage and Cauliflower",2013,Cabbage,VEGETABLE,372.4,3.724,8534.2,22.9,Devika
+251,7_1_7,"Brinjal, Cabbage and Cauliflower",2014,Cabbage,VEGETABLE,400,4,9039,22.6,Devika
+252,7_1_7,"Brinjal, Cabbage and Cauliflower",2015,Cabbage,VEGETABLE,385.6,3.856,8584.8,22.2,Devika
+253,7_1_7,"Brinjal, Cabbage and Cauliflower",2016,Cabbage,VEGETABLE,393.8,3.938,8806,22.4,Devika
+254,7_1_7,"Brinjal, Cabbage and Cauliflower",2017,Cabbage,VEGETABLE,394.8,3.948,8807.5,22.3,Devika
+255,7_1_7,"Brinjal, Cabbage and Cauliflower",2018,Cabbage,VEGETABLE,398.5,3.985,9037.3,22.7,Devika
+256,7_1_7,"Brinjal, Cabbage and Cauliflower",1992,Cauliflower,VEGETABLE,202.8,2.028,2998.1,14.8,Devika
+257,7_1_7,"Brinjal, Cabbage and Cauliflower",2002,Cauliflower,VEGETABLE,269.9,2.699,4890.5,18.1,Devika
+258,7_1_7,"Brinjal, Cabbage and Cauliflower",2003,Cauliflower,VEGETABLE,254.6,2.546,444.1,1.7,Devika
+259,7_1_7,"Brinjal, Cabbage and Cauliflower",2004,Cauliflower,VEGETABLE,267.9,2.679,4940.2,18.4,Devika
+260,7_1_7,"Brinjal, Cabbage and Cauliflower",2005,Cauliflower,VEGETABLE,238.5,2.385,4514.8,18.9,Devika
+261,7_1_7,"Brinjal, Cabbage and Cauliflower",2006,Cauliflower,VEGETABLE,288.6,2.886,5323.1,18.4,Devika
+262,7_1_7,"Brinjal, Cabbage and Cauliflower",2007,Cauliflower,VEGETABLE,302,3.02,5538,18.3,Devika
+263,7_1_7,"Brinjal, Cabbage and Cauliflower",2008,Cauliflower,VEGETABLE,312,3.12,5777,18.5,Devika
+264,7_1_7,"Brinjal, Cabbage and Cauliflower",2009,Cauliflower,VEGETABLE,349,3.49,6532,18.7,Devika
+265,7_1_7,"Brinjal, Cabbage and Cauliflower",2010,Cauliflower,VEGETABLE,347.9,3.479,6569,18.9,Devika
+266,7_1_7,"Brinjal, Cabbage and Cauliflower",2011,Cauliflower,VEGETABLE,369,3.69,6745,18.3,Devika
+267,7_1_7,"Brinjal, Cabbage and Cauliflower",2012,Cauliflower,VEGETABLE,390.8,3.908,7348.9,18.8,Devika
+268,7_1_7,"Brinjal, Cabbage and Cauliflower",2013,Cauliflower,VEGETABLE,402.2,4.022,7886.7,19.6,Devika
+269,7_1_7,"Brinjal, Cabbage and Cauliflower",2014,Cauliflower,VEGETABLE,434,4.34,8573,19.8,Devika
+270,7_1_7,"Brinjal, Cabbage and Cauliflower",2015,Cauliflower,VEGETABLE,411,4.11,7925.9,19.3,Devika
+271,7_1_7,"Brinjal, Cabbage and Cauliflower",2016,Cauliflower,VEGETABLE,426.1,4.261,8089.8,19,Devika
+272,7_1_7,"Brinjal, Cabbage and Cauliflower",2017,Cauliflower,VEGETABLE,453.8,4.538,8556.9,18.9,Devika
+273,7_1_7,"Brinjal, Cabbage and Cauliflower",2018,Cauliflower,VEGETABLE,452.6,4.526,8668.2,19.2,Devika
+274,7_1_8,"Okra, Onion and Pea",1992,Okra,VEGETABLE,222,2.22,1886.5,8.5,Devika
+275,7_1_8,"Okra, Onion and Pea",2002,Okra,VEGETABLE,347.2,3.472,3324.7,9.6,Devika
+276,7_1_8,"Okra, Onion and Pea",2003,Okra,VEGETABLE,329.2,3.292,3244.5,9.9,Devika
+277,7_1_8,"Okra, Onion and Pea",2004,Okra,VEGETABLE,353.1,3.531,3631.4,10.3,Devika
+278,7_1_8,"Okra, Onion and Pea",2005,Okra,VEGETABLE,357.3,3.573,3512.4,9.8,Devika
+279,7_1_8,"Okra, Onion and Pea",2006,Okra,VEGETABLE,391.8,3.918,3974.6,10.1,Devika
+280,7_1_8,"Okra, Onion and Pea",2007,Okra,VEGETABLE,396,3.96,4070,10.3,Devika
+281,7_1_8,"Okra, Onion and Pea",2008,Okra,VEGETABLE,407,4.07,4179,10.3,Devika
+282,7_1_8,"Okra, Onion and Pea",2009,Okra,VEGETABLE,432,4.32,4528,10.5,Devika
+283,7_1_8,"Okra, Onion and Pea",2010,Okra,VEGETABLE,452.5,4.525,4803.3,10.6,Devika
+284,7_1_8,"Okra, Onion and Pea",2011,Okra,VEGETABLE,498,4.98,5784,11.6,Devika
+285,7_1_8,"Okra, Onion and Pea",2012,Okra,VEGETABLE,518.4,5.184,6259.2,12.1,Devika
+286,7_1_8,"Okra, Onion and Pea",2013,Okra,VEGETABLE,530.8,5.308,6350.3,12,Devika
+287,7_1_8,"Okra, Onion and Pea",2014,Okra,VEGETABLE,533,5.33,6346,11.9,Devika
+288,7_1_8,"Okra, Onion and Pea",2015,Okra,VEGETABLE,503.7,5.037,5708.7,11.3,Devika
+289,7_1_8,"Okra, Onion and Pea",2016,Okra,VEGETABLE,511,5.11,5848.6,11.4,Devika
+290,7_1_8,"Okra, Onion and Pea",2017,Okra,VEGETABLE,506.5,5.065,6003.2,11.9,Devika
+291,7_1_8,"Okra, Onion and Pea",2018,Okra,VEGETABLE,509,5.09,6094.9,12,Devika
+292,7_1_8,"Okra, Onion and Pea",1992,Onion,VEGETABLE,331.8,3.318,4705.8,14.2,Devika
+293,7_1_8,"Okra, Onion and Pea",2002,Onion,VEGETABLE,495.8,4.958,5252.1,10.6,Devika
+294,7_1_8,"Okra, Onion and Pea",2003,Onion,VEGETABLE,424.7,4.247,4209.5,9.9,Devika
+295,7_1_8,"Okra, Onion and Pea",2004,Onion,VEGETABLE,553.8,5.538,6267.6,11.3,Devika
+296,7_1_8,"Okra, Onion and Pea",2005,Onion,VEGETABLE,613.8,6.138,7760.6,12.6,Devika
+297,7_1_8,"Okra, Onion and Pea",2006,Onion,VEGETABLE,703.6,7.036,9432.5,13.4,Devika
+298,7_1_8,"Okra, Onion and Pea",2007,Onion,VEGETABLE,768,7.68,10847,14.1,Devika
+299,7_1_8,"Okra, Onion and Pea",2008,Onion,VEGETABLE,821,8.21,13900,16.9,Devika
+300,7_1_8,"Okra, Onion and Pea",2009,Onion,VEGETABLE,834,8.34,13565,16.3,Devika
+301,7_1_8,"Okra, Onion and Pea",2010,Onion,VEGETABLE,756.2,7.562,12158.8,16.1,Devika
+302,7_1_8,"Okra, Onion and Pea",2011,Onion,VEGETABLE,1064,10.64,15118,14.2,Devika
+303,7_1_8,"Okra, Onion and Pea",2012,Onion,VEGETABLE,1087.2,10.872,17511.1,16.1,Devika
+304,7_1_8,"Okra, Onion and Pea",2013,Onion,VEGETABLE,1051.5,10.515,16813,16,Devika
+305,7_1_8,"Okra, Onion and Pea",2014,Onion,VEGETABLE,1204,12.04,19402,16.1,Devika
+306,7_1_8,"Okra, Onion and Pea",2015,Onion,VEGETABLE,1173.4,11.734,18927.4,16.1,Devika
+307,7_1_8,"Okra, Onion and Pea",2016,Onion,VEGETABLE,1320,13.2,20931.2,15.9,Devika
+308,7_1_8,"Okra, Onion and Pea",2017,Onion,VEGETABLE,1305.6,13.056,22427.4,17.2,Devika
+309,7_1_8,"Okra, Onion and Pea",2018,Onion,VEGETABLE,1285,12.85,23262.3,18.1,Devika
+310,7_1_8,"Okra, Onion and Pea",1992,Peas,VEGETABLE,177.7,1.777,851.6,4.8,Devika
+311,7_1_8,"Okra, Onion and Pea",2002,Peas,VEGETABLE,303.3,3.033,2038.2,6.7,Devika
+312,7_1_8,"Okra, Onion and Pea",2003,Peas,VEGETABLE,305.2,3.052,2061.8,6.8,Devika
+313,7_1_8,"Okra, Onion and Pea",2004,Peas,VEGETABLE,285.2,2.852,1901.2,6.7,Devika
+314,7_1_8,"Okra, Onion and Pea",2005,Peas,VEGETABLE,276.3,2.763,1944.8,7,Devika
+315,7_1_8,"Okra, Onion and Pea",2006,Peas,VEGETABLE,286.1,2.861,2270,7.9,Devika
+316,7_1_8,"Okra, Onion and Pea",2007,Peas,VEGETABLE,297,2.97,2402,8.1,Devika
+317,7_1_8,"Okra, Onion and Pea",2008,Peas,VEGETABLE,313,3.13,2491,8,Devika
+318,7_1_8,"Okra, Onion and Pea",2009,Peas,VEGETABLE,348,3.48,2916,8.4,Devika
+319,7_1_8,"Okra, Onion and Pea",2010,Peas,VEGETABLE,364.9,3.649,3029.4,8.3,Devika
+320,7_1_8,"Okra, Onion and Pea",2011,Peas,VEGETABLE,370,3.7,3517,9.5,Devika
+321,7_1_8,"Okra, Onion and Pea",2012,Peas,VEGETABLE,408.2,4.082,3744.8,9.2,Devika
+322,7_1_8,"Okra, Onion and Pea",2013,Peas,VEGETABLE,420.9,4.209,4006.2,9.5,Devika
+323,7_1_8,"Okra, Onion and Pea",2014,Peas,VEGETABLE,434,4.34,3869,8.9,Devika
+324,7_1_8,"Okra, Onion and Pea",2015,Peas,VEGETABLE,475.9,4.759,4651.5,9.7,Devika
+325,7_1_8,"Okra, Onion and Pea",2016,Peas,VEGETABLE,497.6,4.976,4810.8,9.7,Devika
+326,7_1_8,"Okra, Onion and Pea",2017,Peas,VEGETABLE,530.5,5.305,5345,10.1,Devika
+327,7_1_8,"Okra, Onion and Pea",2018,Peas,VEGETABLE,540.5,5.405,5422.1,10,Devika
+328,7_1_9,"Tomato, Potato and Sweet Potato",1992,Tomato,VEGETABLE,289.1,2.891,4243.4,14.7,Nandana
+329,7_1_9,"Tomato, Potato and Sweet Potato",2002,Tomato,VEGETABLE,458.1,4.581,7462.3,16.3,Nandana
+330,7_1_9,"Tomato, Potato and Sweet Potato",2003,Tomato,VEGETABLE,478.8,4.788,7616.7,15.9,Nandana
+331,7_1_9,"Tomato, Potato and Sweet Potato",2004,Tomato,VEGETABLE,502.8,5.028,8125.6,16.2,Nandana
+332,7_1_9,"Tomato, Potato and Sweet Potato",2005,Tomato,VEGETABLE,505.4,5.054,8825.4,17.5,Nandana
+333,7_1_9,"Tomato, Potato and Sweet Potato",2006,Tomato,VEGETABLE,546.1,5.461,9820.4,18,Nandana
+334,7_1_9,"Tomato, Potato and Sweet Potato",2007,Tomato,VEGETABLE,596,5.96,10022,16.8,Nandana
+335,7_1_9,"Tomato, Potato and Sweet Potato",2008,Tomato,VEGETABLE,566,5.66,10303,18.2,Nandana
+336,7_1_9,"Tomato, Potato and Sweet Potato",2009,Tomato,VEGETABLE,599,5.99,11149,18.6,Nandana
+337,7_1_9,"Tomato, Potato and Sweet Potato",2010,Tomato,VEGETABLE,634.4,6.344,12433.2,19.6,Nandana
+338,7_1_9,"Tomato, Potato and Sweet Potato",2011,Tomato,VEGETABLE,865,8.65,16826,19.5,Nandana
+339,7_1_9,"Tomato, Potato and Sweet Potato",2012,Tomato,VEGETABLE,907.1,9.071,18653.3,20.6,Nandana
+340,7_1_9,"Tomato, Potato and Sweet Potato",2013,Tomato,VEGETABLE,879.6,8.796,18226.6,20.7,Nandana
+341,7_1_9,"Tomato, Potato and Sweet Potato",2014,Tomato,VEGETABLE,882,8.82,18736,21.2,Nandana
+342,7_1_9,"Tomato, Potato and Sweet Potato",2015,Tomato,VEGETABLE,767.3,7.673,16385,21.3,Nandana
+343,7_1_9,"Tomato, Potato and Sweet Potato",2016,Tomato,VEGETABLE,773.9,7.739,18732,24.2,Nandana
+344,7_1_9,"Tomato, Potato and Sweet Potato",2017,Tomato,VEGETABLE,796.9,7.969,20708.4,26,Nandana
+345,7_1_9,"Tomato, Potato and Sweet Potato",2018,Tomato,VEGETABLE,789.2,7.892,19759.3,25,Nandana
+346,7_1_9,"Tomato, Potato and Sweet Potato",1992,Potato,VEGETABLE,1135.1,11.351,18195,16,Nandana
+347,7_1_9,"Tomato, Potato and Sweet Potato",2002,Potato,VEGETABLE,1259.5,12.595,24456.1,19.4,Nandana
+348,7_1_9,"Tomato, Potato and Sweet Potato",2003,Potato,VEGETABLE,1337.2,13.372,23161.4,17.3,Nandana
+349,7_1_9,"Tomato, Potato and Sweet Potato",2004,Potato,VEGETABLE,1484.7,14.847,27925.8,18.8,Nandana
+350,7_1_9,"Tomato, Potato and Sweet Potato",2005,Potato,VEGETABLE,1523.9,15.239,28787.7,18.9,Nandana
+351,7_1_9,"Tomato, Potato and Sweet Potato",2006,Potato,VEGETABLE,1569.2,15.692,29174.6,18.6,Nandana
+352,7_1_9,"Tomato, Potato and Sweet Potato",2007,Potato,VEGETABLE,1743,17.43,28600,16.4,Nandana
+353,7_1_9,"Tomato, Potato and Sweet Potato",2008,Potato,VEGETABLE,1795,17.95,34658,19.3,Nandana
+354,7_1_9,"Tomato, Potato and Sweet Potato",2009,Potato,VEGETABLE,1828,18.28,34391,18.8,Nandana
+355,7_1_9,"Tomato, Potato and Sweet Potato",2010,Potato,VEGETABLE,1835.3,18.353,36577.3,19.9,Nandana
+356,7_1_9,"Tomato, Potato and Sweet Potato",2011,Potato,VEGETABLE,1863,18.63,42339,22.7,Nandana
+357,7_1_9,"Tomato, Potato and Sweet Potato",2012,Potato,VEGETABLE,1907,19.07,41482.8,21.8,Nandana
+358,7_1_9,"Tomato, Potato and Sweet Potato",2013,Potato,VEGETABLE,1992.2,19.922,45343.6,22.8,Nandana
+359,7_1_9,"Tomato, Potato and Sweet Potato",2014,Potato,VEGETABLE,1973,19.73,41555,21.1,Nandana
+360,7_1_9,"Tomato, Potato and Sweet Potato",2015,Potato,VEGETABLE,2075.9,20.759,48009.2,23.1,Nandana
+361,7_1_9,"Tomato, Potato and Sweet Potato",2016,Potato,VEGETABLE,2116.9,21.169,43417,20.5,Nandana
+362,7_1_9,"Tomato, Potato and Sweet Potato",2017,Potato,VEGETABLE,2179.3,21.793,48604.6,22.3,Nandana
+363,7_1_9,"Tomato, Potato and Sweet Potato",2018,Potato,VEGETABLE,2141.7,21.417,51310,24,Nandana
+364,7_1_9,"Tomato, Potato and Sweet Potato",1992,Sweet Potato,VEGETABLE,136.5,1.365,1130.7,8.3,Nandana
+365,7_1_9,"Tomato, Potato and Sweet Potato",2002,Sweet Potato,VEGETABLE,131.9,1.319,1130.3,8.6,Nandana
+366,7_1_9,"Tomato, Potato and Sweet Potato",2003,Sweet Potato,VEGETABLE,131.9,1.319,1130.3,8.6,Nandana
+367,7_1_9,"Tomato, Potato and Sweet Potato",2004,Sweet Potato,VEGETABLE,133.1,1.331,1179.1,8.9,Nandana
+368,7_1_9,"Tomato, Potato and Sweet Potato",2005,Sweet Potato,VEGETABLE,133.3,1.333,1179.4,8.8,Nandana
+369,7_1_9,"Tomato, Potato and Sweet Potato",2006,Sweet Potato,VEGETABLE,122.8,1.228,1066.5,8.7,Nandana
+370,7_1_9,"Tomato, Potato and Sweet Potato",2007,Sweet Potato,VEGETABLE,123,1.23,1067.2,8.7,Nandana
+371,7_1_9,"Tomato, Potato and Sweet Potato",2008,Sweet Potato,VEGETABLE,123,1.23,1094,8.9,Nandana
+372,7_1_9,"Tomato, Potato and Sweet Potato",2009,Sweet Potato,VEGETABLE,124,1.24,1120,9,Nandana
+373,7_1_9,"Tomato, Potato and Sweet Potato",2010,Sweet Potato,VEGETABLE,118.9,1.189,1094.7,9.2,Nandana
+374,7_1_9,"Tomato, Potato and Sweet Potato",2011,Sweet Potato,VEGETABLE,113,1.13,1047,9.3,Nandana
+375,7_1_9,"Tomato, Potato and Sweet Potato",2012,Sweet Potato,VEGETABLE,110.4,1.104,1072.8,9.7,Nandana
+376,7_1_9,"Tomato, Potato and Sweet Potato",2013,Sweet Potato,VEGETABLE,111.8,1.118,1132.4,10.1,Nandana
+377,7_1_9,"Tomato, Potato and Sweet Potato",2014,Sweet Potato,VEGETABLE,106,1.06,1088,10.3,Nandana
+378,7_1_9,"Tomato, Potato and Sweet Potato",2015,Sweet Potato,VEGETABLE,106.9,1.069,1227.8,11.4,Nandana
+379,7_1_9,"Tomato, Potato and Sweet Potato",2016,Sweet Potato,VEGETABLE,126.4,1.264,1454.3,11.5,Nandana
+380,7_1_9,"Tomato, Potato and Sweet Potato",2017,Sweet Potato,VEGETABLE,128.4,1.284,1460.2,11.4,Nandana
+381,7_1_9,"Tomato, Potato and Sweet Potato",2018,Sweet Potato,VEGETABLE,130.6,1.306,1500.5,11.5,Nandana
+382,7_1_10," Tapioca, Arecanut and Cashewnut",1992,Tapioca,VEGETABLE,250.9,2.509,5832.5,23.2,Nandana
+383,7_1_10," Tapioca, Arecanut and Cashewnut",2002,Tapioca,VEGETABLE,238.9,2.389,6515.9,27.3,Nandana
+384,7_1_10," Tapioca, Arecanut and Cashewnut",2003,Tapioca,VEGETABLE,207,2.07,5426.2,26.2,Nandana
+385,7_1_10," Tapioca, Arecanut and Cashewnut",2004,Tapioca,VEGETABLE,220,2.2,5949.6,27,Nandana
+386,7_1_10," Tapioca, Arecanut and Cashewnut",2005,Tapioca,VEGETABLE,244.7,2.447,7462.8,30.5,Nandana
+387,7_1_10," Tapioca, Arecanut and Cashewnut",2006,Tapioca,VEGETABLE,244.6,2.446,7854.9,32.1,Nandana
+388,7_1_10," Tapioca, Arecanut and Cashewnut",2007,Tapioca,VEGETABLE,255,2.55,8232,32.3,Nandana
+389,7_1_10," Tapioca, Arecanut and Cashewnut",2008,Tapioca,VEGETABLE,270,2.7,9056,33.5,Nandana
+390,7_1_10," Tapioca, Arecanut and Cashewnut",2009,Tapioca,VEGETABLE,280,2.8,9623,34.4,Nandana
+391,7_1_10," Tapioca, Arecanut and Cashewnut",2010,Tapioca,VEGETABLE,231.9,2.319,8059.9,34.8,Nandana
+392,7_1_10," Tapioca, Arecanut and Cashewnut",2011,Tapioca,VEGETABLE,221,2.21,8076,36.5,Nandana
+393,7_1_10," Tapioca, Arecanut and Cashewnut",2012,Tapioca,VEGETABLE,226.7,2.267,8746.5,38.6,Nandana
+394,7_1_10," Tapioca, Arecanut and Cashewnut",2013,Tapioca,VEGETABLE,207,2.07,7236.6,35,Nandana
+395,7_1_10," Tapioca, Arecanut and Cashewnut",2014,Tapioca,VEGETABLE,228,2.28,8139,35.7,Nandana
+396,7_1_10," Tapioca, Arecanut and Cashewnut",2015,Tapioca,VEGETABLE,208,2.08,4372.7,21,Nandana
+397,7_1_10," Tapioca, Arecanut and Cashewnut",2016,Tapioca,VEGETABLE,203.5,2.035,4344.2,21.3,Nandana
+398,7_1_10," Tapioca, Arecanut and Cashewnut",2017,Tapioca,VEGETABLE,198.7,1.987,4170.8,21,Nandana
+399,7_1_10," Tapioca, Arecanut and Cashewnut",2018,Tapioca,VEGETABLE,172.8,1.728,4949.6,28.6,Nandana
+400,7_1_10," Tapioca, Arecanut and Cashewnut",1992,Arecanut,PLANTATION CROPS,221.8,2.218,251,1.1,Nandana
+401,7_1_10," Tapioca, Arecanut and Cashewnut",2002,Arecanut,PLANTATION CROPS,334.8,3.348,409.3,1.2,Nandana
+402,7_1_10," Tapioca, Arecanut and Cashewnut",2003,Arecanut,PLANTATION CROPS,334.8,3.348,409.3,1.2,Nandana
+403,7_1_10," Tapioca, Arecanut and Cashewnut",2004,Arecanut,PLANTATION CROPS,365,3.65,439.2,1.2,Nandana
+404,7_1_10," Tapioca, Arecanut and Cashewnut",2005,Arecanut,PLANTATION CROPS,364.3,3.643,452.7,1.2,Nandana
+405,7_1_10," Tapioca, Arecanut and Cashewnut",2006,Arecanut,PLANTATION CROPS,381.1,3.811,483.1,1.3,Nandana
+406,7_1_10," Tapioca, Arecanut and Cashewnut",2007,Arecanut,PLANTATION CROPS,382.7,3.827,483.3,1.3,Nandana
+407,7_1_10," Tapioca, Arecanut and Cashewnut",2008,Arecanut,PLANTATION CROPS,386.6,3.866,476,1.2,Nandana
+408,7_1_10," Tapioca, Arecanut and Cashewnut",2009,Arecanut,PLANTATION CROPS,387.1,3.871,481.3,1.2,Nandana
+409,7_1_10," Tapioca, Arecanut and Cashewnut",2010,Arecanut,PLANTATION CROPS,400.1,4.001,478,1.2,Nandana
+410,7_1_10," Tapioca, Arecanut and Cashewnut",2011,Arecanut,PLANTATION CROPS,400.1,4.001,478.1,1.2,Nandana
+411,7_1_10," Tapioca, Arecanut and Cashewnut",2012,Arecanut,PLANTATION CROPS,463.9,4.639,680.7,1.5,Nandana
+412,7_1_10," Tapioca, Arecanut and Cashewnut",2013,Arecanut,PLANTATION CROPS,446.4,4.464,608.7,1.4,Nandana
+413,7_1_10," Tapioca, Arecanut and Cashewnut",2014,Arecanut,PLANTATION CROPS,452,4.52,622,1.4,Nandana
+414,7_1_10," Tapioca, Arecanut and Cashewnut",2015,Arecanut,PLANTATION CROPS,450.2,4.502,746.7,1.6,Nandana
+415,7_1_10," Tapioca, Arecanut and Cashewnut",2016,Arecanut,PLANTATION CROPS,474.4,4.744,713.8,1.5,Nandana
+416,7_1_10," Tapioca, Arecanut and Cashewnut",2017,Arecanut,PLANTATION CROPS,454.7,4.547,722.9,1.6,Nandana
+417,7_1_10," Tapioca, Arecanut and Cashewnut",2018,Arecanut,PLANTATION CROPS,496.7,4.967,833,1.7,Nandana
+418,7_1_10," Tapioca, Arecanut and Cashewnut",1992,Cashewnut,PLANTATION CROPS,534,5.34,305,0.6,Nandana
+419,7_1_10," Tapioca, Arecanut and Cashewnut",2002,Cashewnut,PLANTATION CROPS,740,7.4,460,0.6,Nandana
+420,7_1_10," Tapioca, Arecanut and Cashewnut",2003,Cashewnut,PLANTATION CROPS,740,7.4,460,0.6,Nandana
+421,7_1_10," Tapioca, Arecanut and Cashewnut",2004,Cashewnut,PLANTATION CROPS,780,7.8,535,0.7,Nandana
+422,7_1_10," Tapioca, Arecanut and Cashewnut",2005,Cashewnut,PLANTATION CROPS,820,8.2,544,0.7,Nandana
+423,7_1_10," Tapioca, Arecanut and Cashewnut",2006,Cashewnut,PLANTATION CROPS,843,8.43,579,0.7,Nandana
+424,7_1_10," Tapioca, Arecanut and Cashewnut",2007,Cashewnut,PLANTATION CROPS,854,8.54,620,0.7,Nandana
+425,7_1_10," Tapioca, Arecanut and Cashewnut",2008,Cashewnut,PLANTATION CROPS,868,8.68,665,0.8,Nandana
+426,7_1_10," Tapioca, Arecanut and Cashewnut",2009,Cashewnut,PLANTATION CROPS,893,8.93,695,0.8,Nandana
+427,7_1_10," Tapioca, Arecanut and Cashewnut",2010,Cashewnut,PLANTATION CROPS,923,9.23,613,0.7,Nandana
+428,7_1_10," Tapioca, Arecanut and Cashewnut",2011,Cashewnut,PLANTATION CROPS,953,9.53,675,0.7,Nandana
+429,7_1_10," Tapioca, Arecanut and Cashewnut",2012,Cashewnut,PLANTATION CROPS,979,9.79,725,0.7,Nandana
+430,7_1_10," Tapioca, Arecanut and Cashewnut",2013,Cashewnut,PLANTATION CROPS,992,9.92,753,0.8,Nandana
+431,7_1_10," Tapioca, Arecanut and Cashewnut",2014,Cashewnut,PLANTATION CROPS,1011,10.11,753,0.7,Nandana
+432,7_1_10," Tapioca, Arecanut and Cashewnut",2015,Cashewnut,PLANTATION CROPS,1029.5,10.295,745,0.7,Nandana
+433,7_1_10," Tapioca, Arecanut and Cashewnut",2016,Cashewnut,PLANTATION CROPS,1035.6,10.356,670.9,0.6,Nandana
+434,7_1_10," Tapioca, Arecanut and Cashewnut",2017,Cashewnut,PLANTATION CROPS,978.3,9.783,744.7,0.8,Nandana
+435,7_1_10," Tapioca, Arecanut and Cashewnut",2018,Cashewnut,PLANTATION CROPS,1062,10.62,817,0.8,Nandana
+436,7_1_11,Coconut and SPICES,1992,Coconut,PLANTATION CROPS,1529,15.29,10080,6.6,Nandana
+437,7_1_11,Coconut and SPICES,2002,Coconut,PLANTATION CROPS,1893,18.93,12822,6.8,Nandana
+438,7_1_11,Coconut and SPICES,2003,Coconut,PLANTATION CROPS,1893,18.93,12822,6.8,Nandana
+439,7_1_11,Coconut and SPICES,2004,Coconut,PLANTATION CROPS,1934,19.34,12178,6.3,Nandana
+440,7_1_11,Coconut and SPICES,2005,Coconut,PLANTATION CROPS,1935,19.35,8829,4.6,Nandana
+441,7_1_11,Coconut and SPICES,2006,Coconut,PLANTATION CROPS,2029,20.29,14809,7.3,Nandana
+442,7_1_11,Coconut and SPICES,2007,Coconut,PLANTATION CROPS,1940,19.4,15831,8.2,Nandana
+443,7_1_11,Coconut and SPICES,2008,Coconut,PLANTATION CROPS,1903,19.03,14748,7.7,Nandana
+444,7_1_11,Coconut and SPICES,2009,Coconut,PLANTATION CROPS,1903,19.03,14748,7.7,Nandana
+445,7_1_11,Coconut and SPICES,2010,Coconut,PLANTATION CROPS,1895,18.95,15730,8.3,Nandana
+446,7_1_11,Coconut and SPICES,2011,Coconut,PLANTATION CROPS,1896,18.96,10840,5.7,Nandana
+447,7_1_11,Coconut and SPICES,2012,Coconut,PLANTATION CROPS,2071,20.71,14940,7.2,Nandana
+448,7_1_11,Coconut and SPICES,2013,Coconut,PLANTATION CROPS,2137,21.37,15609,7.3,Nandana
+449,7_1_11,Coconut and SPICES,2014,Coconut,PLANTATION CROPS,2140,21.4,14911,7,Nandana
+450,7_1_11,Coconut and SPICES,2015,Coconut,PLANTATION CROPS,1975.8,19.758,14067.2,7.1,Nandana
+451,7_1_11,Coconut and SPICES,2016,Coconut,PLANTATION CROPS,2088.5,20.885,15256.3,7.3,Nandana
+452,7_1_11,Coconut and SPICES,2017,Coconut,PLANTATION CROPS,2082.1,20.821,16485.6,7.9,Nandana
+453,7_1_11,Coconut and SPICES,2018,Coconut,PLANTATION CROPS,2096.7,20.967,16412.6,7.8,Nandana
+454,7_1_11,Coconut and SPICES,1992,SPICES,SPICES,2005,20.05,1900,0.9,Nandana
+455,7_1_11,Coconut and SPICES,2002,SPICES,SPICES,3220,32.2,3765,1.2,Nandana
+456,7_1_11,Coconut and SPICES,2003,SPICES,SPICES,3220,32.2,3765,1.2,Nandana
+457,7_1_11,Coconut and SPICES,2004,SPICES,SPICES,5155,51.55,5113,1,Nandana
+458,7_1_11,Coconut and SPICES,2005,SPICES,SPICES,5909,59.09,8051,1.4,Nandana
+459,7_1_11,Coconut and SPICES,2006,SPICES,SPICES,2366,23.66,3705,1.6,Nandana
+460,7_1_11,Coconut and SPICES,2007,SPICES,SPICES,2448,24.48,3953,1.6,Nandana
+461,7_1_11,Coconut and SPICES,2008,SPICES,SPICES,2617,26.17,4357,1.7,Nandana
+462,7_1_11,Coconut and SPICES,2009,SPICES,SPICES,2629,26.29,4145,1.6,Nandana
+463,7_1_11,Coconut and SPICES,2010,SPICES,SPICES,2464,24.64,4016,1.6,Nandana
+464,7_1_11,Coconut and SPICES,2011,SPICES,SPICES,2940,29.4,5351,1.8,Nandana
+465,7_1_11,Coconut and SPICES,2012,SPICES,SPICES,3212,32.12,5951,1.9,Nandana
+466,7_1_11,Coconut and SPICES,2013,SPICES,SPICES,3076,30.76,5744,1.9,Nandana
+467,7_1_11,Coconut and SPICES,2014,SPICES,SPICES,3163,31.63,5908,1.9,Nandana
+468,7_1_11,Coconut and SPICES,2015,SPICES,SPICES,3317.3,33.173,6108.3,1.8,Nandana
+469,7_1_11,Coconut and SPICES,2016,SPICES,SPICES,3473.5,34.735,6988.5,2,Nandana
+470,7_1_11,Coconut and SPICES,2017,SPICES,SPICES,3671.1,36.711,8122.1,2.2,Nandana
+471,7_1_11,Coconut and SPICES,2018,SPICES,SPICES,3877.9,38.779,8123.9,2.1,Nandana
